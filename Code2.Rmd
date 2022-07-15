@@ -1,0 +1,651 @@
+---
+title: "Cheeese meta analysis- Sequences"
+output: html_notebook
+---
+#Load packages and data
+
+```{r}
+suppressPackageStartupMessages(lapply(c('plyr','ggfortify', 'viridis', 'ggplot2','RColorBrewer', 'reshape2', 'phyloseq', 'vegan', 'cowplot', 'dplyr',  'dada2', 'betapart', 'tidyverse', 'Carrotworks', 'maps', 'mapdata', 'brms', 'ggmap'), require,character.only=TRUE)) #add as necessary
+
+colorpal=c( "#FFDB6D","#C4961A","gold4", "gold", "goldenrod3", "goldenrod1", "gold3", "gold1","goldenrod4", "goldenrod") #set color palette
+
+meta= read.delim("C:/Users/sj40zura/Dropbox (iDiv)/In Progress/Reuben/Meta analysis/tracking_all.txt", row.names=1)
+merged=readRDS("merged_all.rds")
+
+merged@sam_data=sample_data(meta)
+merged=prune_samples(merged@sam_data$Cheese!="REMOVE", merged)
+
+merged@sam_data$study=as.character(merged@sam_data$study)
+
+merged=prune_samples(merged@sam_data$study!="15", merged)
+
+merged@sam_data$World=merged@sam_data$Country
+
+#create continent classification
+merged@sam_data$World=recode_factor(merged@sam_data$World,
+                                    "Argentina"="Americas",
+                                    "Brazil"="Americas",
+                                    "Canada"="Americas",
+                                    "Colombia"="Americas",
+                                    "Mexico"="Americas",
+                                    "USA"="Americas",
+                                    "China"="Asia",
+                                    "Cyprus"="Europe",
+                                    "France"="Europe",
+                                    "Iran"="Asia",
+                                    "Italy"="Europe",
+                                    "Netherlands"="Europe",
+                                    "Poland"="Europe",
+                                    "Switzerland"="Europe")
+
+
+#from  Jose G Maciá-Vicente, https://github.com/jgmv/comecol/blob/master/R/plot_vp_euler4.R
+test_vp4 <- function(vp) {
+  # retrieve tables from vp
+  y  <- eval(parse(text = vp$call[2]))
+  X1 <- as.matrix(eval(parse(text = vp$call[3])))
+  X2 <- as.matrix(eval(parse(text = vp$call[4])))
+  X3 <- as.matrix(eval(parse(text = vp$call[5])))
+  X4 <- as.matrix(eval(parse(text = vp$call[6])))
+
+  # create an output table
+  tab <- rbind(vp$part[[1]][1:4], vp$part[[2]][1:4], vp$part[[3]][1:4])
+  tab$percVar <- tab[, "Adj.R.square"] * 100
+  tab$P <- rep(NA, nrow(tab))
+  #vegan::showvarparts(4)
+  if(class(y) == "dist") {
+    tab[15, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X2 + X3 + X4))$Pr[1]
+    tab[1, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X1))$Pr[1]
+    tab[2, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X2))$Pr[1]
+    tab[3, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X3))$Pr[1]
+    tab[4, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X3))$Pr[1]
+    tab[5, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X2))$Pr[1]
+    tab[6, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X3))$Pr[1]
+    tab[7, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X4))$Pr[1]
+    tab[8, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X2 + X3))$Pr[1]
+    tab[9, "P"]   <- vegan::anova.cca(vegan::dbrda(y ~ X2 + X4))$Pr[1]
+    tab[10, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X3 + X4))$Pr[1]
+    tab[11, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X2 + X3))$Pr[1]
+    tab[12, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X2 + X4))$Pr[1]
+    tab[13, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X1 + X3 + X4))$Pr[1]
+    tab[14, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X2 + X3 + X4))$Pr[1]
+    tab[16, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X1 + Condition(X2) +
+      Condition(X3) + Condition(X4)))$Pr[1]
+    tab[17, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X2 + Condition(X1) +
+      Condition(X3) + Condition(X4)))$Pr[1]
+    tab[18, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X3 + Condition(X1) +
+      Condition(X2) + Condition(X4)))$Pr[1]
+    tab[19, "P"]  <- vegan::anova.cca(vegan::dbrda(y ~ X4 + Condition(X1) +
+      Condition(X2) + Condition(X3)))$Pr[1]
+    tab[32, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X1 + Condition(X2)))$Pr[1]
+    tab[33, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X1 + Condition(X3)))$Pr[1]
+    tab[34, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X1 + Condition(X4)))$Pr[1]
+    tab[35, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X2 + Condition(X1)))$Pr[1]
+    tab[36, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X2 + Condition(X3)))$Pr[1]
+    tab[37, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X2 + Condition(X4)))$Pr[1]
+    tab[38, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X3 + Condition(X2)))$Pr[1]
+    tab[39, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X3 + Condition(X2)))$Pr[1]
+    tab[40, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X3 + Condition(X4)))$Pr[1]
+    tab[41, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X4 + Condition(X1)))$Pr[1]
+    tab[42, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X4 + Condition(X2)))$Pr[1]
+    tab[43, "P"] <- vegan::anova.cca(vegan::dbrda(y ~ X4 + Condition(X3)))$Pr[1]
+  } else {
+    tab[15, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X1 + X2 + X3 + X4))$Pr[1]
+    tab[1, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X1))$Pr[1]
+    tab[2, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X2))$Pr[1]
+    tab[3, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X3))$Pr[1]
+    tab[4, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X3))$Pr[1]
+    tab[5, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X1 + X2))$Pr[1]
+    tab[6, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X1 + X3))$Pr[1]
+    tab[7, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X1 + X4))$Pr[1]
+    tab[8, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X2 + X3))$Pr[1]
+    tab[9, "P"]   <- vegan::anova.cca(vegan::rda(y ~ X2 + X4))$Pr[1]
+    tab[10, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X3 + X4))$Pr[1]
+    tab[11, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X1 + X2 + X3))$Pr[1]
+    tab[12, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X1 + X2 + X4))$Pr[1]
+    tab[13, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X1 + X3 + X4))$Pr[1]
+    tab[14, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X2 + X3 + X4))$Pr[1]
+    tab[16, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X1 + Condition(X2) +
+      Condition(X3) + Condition(X4)))$Pr[1]
+    tab[17, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X2 + Condition(X1) +
+      Condition(X3) + Condition(X4)))$Pr[1]
+    tab[18, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X3 + Condition(X1) +
+      Condition(X2) + Condition(X4)))$Pr[1]
+    tab[19, "P"]  <- vegan::anova.cca(vegan::rda(y ~ X4 + Condition(X1) +
+      Condition(X2) + Condition(X3)))$Pr[1]
+    tab[32, "P"] <- vegan::anova.cca(vegan::rda(y ~ X1 + Condition(X2)))$Pr[1]
+    tab[33, "P"] <- vegan::anova.cca(vegan::rda(y ~ X1 + Condition(X3)))$Pr[1]
+    tab[34, "P"] <- vegan::anova.cca(vegan::rda(y ~ X1 + Condition(X4)))$Pr[1]
+    tab[35, "P"] <- vegan::anova.cca(vegan::rda(y ~ X2 + Condition(X1)))$Pr[1]
+    tab[36, "P"] <- vegan::anova.cca(vegan::rda(y ~ X2 + Condition(X3)))$Pr[1]
+    tab[37, "P"] <- vegan::anova.cca(vegan::rda(y ~ X2 + Condition(X4)))$Pr[1]
+    tab[38, "P"] <- vegan::anova.cca(vegan::rda(y ~ X3 + Condition(X2)))$Pr[1]
+    tab[39, "P"] <- vegan::anova.cca(vegan::rda(y ~ X3 + Condition(X2)))$Pr[1]
+    tab[40, "P"] <- vegan::anova.cca(vegan::rda(y ~ X3 + Condition(X4)))$Pr[1]
+    tab[41, "P"] <- vegan::anova.cca(vegan::rda(y ~ X4 + Condition(X1)))$Pr[1]
+    tab[42, "P"] <- vegan::anova.cca(vegan::rda(y ~ X4 + Condition(X2)))$Pr[1]
+    tab[43, "P"] <- vegan::anova.cca(vegan::rda(y ~ X4 + Condition(X3)))$Pr[1]
+  }
+  return(tab)
+}
+
+```
+
+
+#Processing parameters
+```{r}
+#load from metadata
+tracking_all=merged@sam_data
+tracking_all$ratio=tracking_all$Filtered.Reads/tracking_all$Original.Reads
+tracking_all$ratio2=tracking_all$Non.chimeric.Reads/tracking_all$Original.Reads
+tracking_all$ratio3=tracking_all$pseq/tracking_all$Original.Reads
+
+
+ggplot(tracking_all, aes(x=study, y=ratio, group=study, fill=Sequencer))+
+  geom_boxplot()+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),axis.title.x=element_blank())+
+  ylim(0,1)+
+  ylab("Reads conserved after Filtering")+
+geom_text(aes(label=study, x=study, y=.10))
+
+ggplot(tracking_all, aes(x=study, y=ratio2, group=study, fill=Sequencer))+
+  geom_boxplot()+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),axis.title.x=element_blank())+
+  ylim(0,1)+
+  ylab("Reads conserved after Chimera Checking")+
+geom_text(aes(label=study, x=study, y=.10))
+
+ggplot(tracking_all, aes(x=study, y=ratio3, group=study, fill=Sequencer))+
+  geom_boxplot()+
+  ylab("Proportion Bacterial, high-quality reads")+
+  ylim(0,1)+
+  theme_classic()+
+geom_text(aes(label=study, x=study, y=.10))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+#Rarefy and estimate Richness: 7 samples lost to rarefaction to 1500 reads
+```{r}
+rarefied=rarefy_even_depth(merged, 1500,rngseed = 1)
+rarefied@sam_data$Richness=specnumber(rarefied@otu_table@.Data)
+rarefied@sam_data$Animal[rarefied@sam_data$Animal==""] <- NA
+rarefied@sam_data$Country[rarefied@sam_data$Country==""] <- NA
+
+Richplot=ggplot(as.data.frame(rarefied@sam_data), aes(x=reorder(Cheese, Richness, FUN=mean), y=Richness, color=World))+
+  geom_point()+
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+  theme(axis.title.x=element_blank())+
+  scale_color_manual(values=colorpal)
+
+#Output mean and sd
+df=as.data.frame(rarefied@sam_data)
+df.means=df%>% group_by(Cheese)%>% summarize (mean=mean(Richness), sd=sd(Richness))
+
+replicates=rarefied@sam_data %>% group_by(Cheese) %>% tally()
+
+stragglers=replicates[which(replicates$n<3),]
+
+cov=betaC::coverage(rarefied@otu_table@.Data)
+mean(cov, na.rm = TRUE)
+sd(cov, na.rm = TRUE)
+```
+
+Richness per cheese
+```{r}
+library(rstan)
+library(coda)
+library(BayesianTools)
+library(brms)
+fit.brm.2=brm(bf(Richness~Cheese+(1|study)), data = df,family = poisson(link = "identity"),cores = parallel::detectCores()-1, chains = 3) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+rich.est=fitted(fit.brm.2, re_formula = NA) %>% #THIS WILL RETURN THE MEAN ESTIMATES
+ as_tibble() %>%     
+ bind_cols(fit.brm.2$data %>% 
+             as_tibble())%>%
+ distinct(Cheese, Estimate, Q2.5, Q97.5)
+
+fit.brm.2$fit
+
+#to obtain richness estimates, we would use the (fitted) command
+```
+Richness per Continent
+```{r}
+
+fit.brm.Continent=brm(bf(Richness~World+(1|study/Cheese)), data = df,family = poisson(link = "identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+Continent.est=fitted(fit.brm.Continent, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.Continent$data %>% 
+              as_tibble())%>%
+  distinct(World, Estimate, Q2.5, Q97.5)
+
+fit.brm.Continent$fit
+
+Continent.plot <- ggplot() +
+  # the data
+  geom_jitter(data = fit.brm.Continent$data,
+             aes(x = World, y = Richness, group = study, color=study),
+             size = 1) +
+  # expected values for each environment from the model
+  geom_point(data = Continent.est,
+             aes(x = World, y = Estimate),
+             size = 2, color='darkgoldenrod4') +
+  geom_linerange(data = Continent.est,
+                 aes(x = World, ymin = Q2.5, ymax = Q97.5), color="darkgoldenrod4")+ 
+    theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))+
+   theme(legend.position = "none")
+
+Continent.plot
+saveRDS(fit.brm.Continent, "Country.estimates.rds")
+```
+
+Richness per Pasteurization
+```{r}
+fit.brm.Past=brm(bf(Richness~Pasteurized+(1|study/Cheese)), data = df,family = poisson(link = "identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+Past.est=fitted(fit.brm.Past, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.Past$data %>% 
+              as_tibble())%>%
+  distinct(Pasteurized, Estimate, Q2.5, Q97.5)
+
+fit.brm.Past$fit
+
+Past.plot <- ggplot() +
+  # the data
+  geom_jitter(data = fit.brm.Past$data,
+             aes(x = Pasteurized, y = Richness, group = study,color=study),
+             size = 1) +
+  # expected values for each environment from the model
+  geom_point(data = Past.est,
+             aes(x = Pasteurized, y = Estimate),
+             size = 2, color='darkgoldenrod4') +
+  geom_linerange(data = Past.est,
+                 aes(x = Pasteurized, ymin = Q2.5, ymax = Q97.5), color="darkgoldenrod4")+ 
+    theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+ theme(axis.title.x=element_blank())+
+   theme(legend.position = "none")
+Past.plot 
+
+saveRDS(fit.brm.Past, "Pasteurization.estimates.rds")
+
+(hypothesis(fit.brm.Past, "Intercept+PasteurizedYES>Intercept"))
+```
+
+Richness per Animal type
+```{r}
+fit.brm.Animal=brm(bf(Richness~Animal+(1|study/Cheese)), data = df,family = poisson(link = "identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+Animal.est=fitted(fit.brm.Animal, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.Animal$data %>% 
+              as_tibble())%>%
+  distinct(Animal, Estimate, Q2.5, Q97.5)
+
+fit.brm.Animal$fit
+
+Animal.plot <- ggplot() +
+  # the data
+  geom_jitter(data = fit.brm.Animal$data,
+             aes(x = Animal, y = Richness, group = study, color=study),
+             size = 1) +
+  # expected values for each environment from the model
+  geom_point(data = Animal.est,
+             aes(x = Animal, y = Estimate),
+             size = 2, color='darkgoldenrod4') +
+  geom_linerange(data = Animal.est,
+                 aes(x = Animal, ymin = Q2.5, ymax = Q97.5), color="darkgoldenrod4")+ 
+   theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+   theme(axis.title.x=element_blank())+
+   theme(legend.position = "none")
+
+Animal.plot
+
+saveRDS(fit.brm.Animal, "Animal.estimates.rds")
+
+cowgoat=("Intercept+AnimalGoat>Intercept")#significant
+cowmix=("Intercept+AnimalMix>Intercept")
+cowsheep=("Intercept+AnimalSheep<Intercept")#significant
+cowyak=("Intercept+AnimalYak>Intercept")
+goatmix=("Intercept+AnimalGoat>Intercept+AnimalMix")
+goatsheep=("Intercept+AnimalGoat>Intercept+AnimalSheep") #significant
+goatyak=("Intercept+AnimalGoat>Intercept+AnimalYak")
+mixsheep=("Intercept+AnimalMix>Intercept+AnimalSheep") #significant
+mixyak=("Intercept+AnimalMix>Intercept+AnimalYak")
+sheepyak=("Intercept+AnimalYak>Intercept+AnimalSheep")
+
+(hypothesis(fit.brm.Animal, c(cowgoat, cowmix,cowsheep, cowyak, goatmix, goatsheep, goatyak, mixsheep, mixyak, sheepyak)))
+
+```
+Richness per NaCl %
+```{r}
+df$NaCl=as.numeric(df$NaCl)
+
+fit.brm.NaCl=brm(bf(Richness~NaCl+(1|study/Cheese)), data = df[which(df$NaCl!="NA"),],family = poisson(link = "identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+NaCl.est=fitted(fit.brm.NaCl, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.NaCl$data %>% 
+              as_tibble())%>%
+  distinct(NaCl, Estimate, Q2.5, Q97.5)
+
+fit.brm.NaCl$fit
+
+NaCl.plot=ggplot() +
+  # the data
+  geom_ribbon(data = NaCl.est,
+              aes(x = NaCl, ymax = Q97.5, ymin = Q2.5),
+              alpha = 0.2, fill="goldenrod") +
+  geom_point(data = fit.brm.NaCl$data,
+             aes(x = NaCl, y = Richness, group = study, color=study),
+             size = 2) +
+  # expected values for each environment from the model
+  geom_line(data = NaCl.est,
+            aes(x = NaCl, y = Estimate),
+            size = 1.5, color="darkgoldenrod4") +
+      labs(x = 'NaCl (%)',
+       y = 'Richness') +
+  theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+   theme(legend.position = "none")
+
+NaCl.plot
+
+saveRDS(fit.brm.NaCl, "NaCl.estimates.rds")
+
+
+hypothesis(fit.brm.NaCl, "NaCl>0")
+
+
+
+```
+
+Richness per pH %
+```{r}
+
+fit.brm.pH=brm(bf(Richness~pH+(1|study/Cheese)), data = df[which(df$pH!="NA"),],family = poisson(link = "identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+pH.est=fitted(fit.brm.pH, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.pH$data %>% 
+              as_tibble())
+
+
+fit.brm.pH$fit
+
+pH.plot=ggplot() +
+  # the data
+  geom_ribbon(data = pH.est,
+              aes(x = pH, ymax = Q97.5, ymin = Q2.5),
+              alpha = 0.2, fill="goldenrod") +
+  geom_point(data = fit.brm.pH$data,
+             aes(x = pH, y = Richness, group = study, color=study),
+             size = 2) +
+  # expected values for each environment from the model
+  geom_line(data = pH.est,
+            aes(x = pH, y = Estimate),
+            size = 1.5, color="darkgoldenrod4") +
+      labs(x = 'pH',
+       y = 'Richness') +
+  theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+  theme(legend.position = "none")
+
+pH.plot
+saveRDS(fit.brm.pH, "pH.estimates.rds")
+
+plot_grid(pH.plot, NaCl.plot, labels=c('a', 'b'), ncol=2)
+
+hypothesis(fit.brm.pH, "pH>0")
+
+```
+Supplementary richness figure
+```{r}
+cowplot::plot_grid(Past.plot, Animal.plot,Continent.plot,   labels=c('a', 'b', 'c'), nrow=3)
+```
+
+#Make maps
+```{r}
+world=map_data("world")
+
+rarefied@sam_data$region=rarefied@sam_data$Country
+
+cheesecounts=as.data.frame(rarefied@sam_data) %>%  
+    group_by(region) %>%        
+    summarise(ntypes = n_distinct(Cheese))
+
+countries=inner_join(world, cheesecounts, by = "region")
+
+worldmap=ggplot(data = world, mapping = aes(x = long, y = lat, group = group)) +  
+  geom_polygon(data = world, fill = "darkgray", color = "white")+
+  geom_polygon(data = countries, aes(fill = ntypes))+
+  scale_fill_gradient(low = "#FFDB6D", high = "#C4961A", na.value = NA)
+
+
+cowplot::plot_grid(worldmap, Richplot, labels=c("a", "b"), nrow=2)
+
+```
+
+
+
+#Dirichlet multinomial mixture model with k=20. https://microbiome.github.io/tutorials/DMM.html 
+LONG RUN TIME!
+```{r}
+library(microbiome)
+library(DirichletMultinomial)
+library(magrittr)
+genus=tax_glom(rarefied,taxrank = "Genus")
+taxa_names(genus)=genus@tax_table[,6]
+
+
+#remove samples with no replicates
+genus=subset_samples(genus, !(genus@sam_data$Cheese %in% stragglers$Cheese))
+#fork out the variable
+genus.=genus
+
+# Pick the OTU count matrix
+# and convert it into samples x taxa format
+dat <- abundances(genus.)
+count <- as.matrix(t(dat))
+
+fit <- lapply(1:20, dmn, count = count, verbose=TRUE)
+
+lplc <- sapply(fit, laplace) # AIC / BIC / Laplace
+aic  <- sapply(fit, AIC) # AIC / BIC / Laplace
+bic  <- sapply(fit, BIC) # AIC / BIC / Laplace
+plot(lplc, type="b", xlab="Number of Dirichlet Components", ylab="Model Fit")
+lines(aic, type="b", lty = 2)
+lines(bic, type="b", lty = 3)
+
+best=  fit[[which.min(unlist(lplc))]]
+mixturewt(best)
+ass <- apply(mixture(best), 1, which.max)
+for (k in seq(ncol(fitted(best)))) {
+  d <- melt(fitted(best))
+  colnames(d) <- c("OTU", "cluster", "value")
+  d <- subset(d, cluster == k) %>%
+     # Arrange OTUs by assignment strength
+     arrange(value) %>%
+     mutate(OTU = factor(OTU, levels = unique(OTU))) %>%
+     # Only show the most important drivers
+     filter(abs(value) > quantile(abs(value), 0.8))     
+
+  p <- ggplot(d, aes(x = OTU, y = value)) +
+       geom_bar(stat = "identity") +
+       coord_flip() +
+       labs(title = paste("Top drivers: community type", k))
+  print(p)
+}
+
+
+assignments=as.data.frame(mixture(best, assign=TRUE))
+
+genus.@sam_data$Clusters=assignments$`mixture(best, assign = TRUE)`[match(sample_names(genus.), row.names(assignments))]
+
+saveRDS(fit, "dirichletGenus.rds")
+
+```
+
+Heatmap
+```{r}
+genus.filtered=metagMisc::phyloseq_filter_prevalence(genus., prev.trh = 0.3, abund.trh = 150, threshold_condition = "AND")
+
+preheatmap.meta=as.data.frame(as.matrix(genus.filtered@sam_data))
+preheatmap.meta=arrange(preheatmap.meta, Clusters, Cheese)
+preheatmap=as.data.frame(genus.filtered@otu_table)
+preheatmap=(preheatmap/1500)*100
+preheatmap=preheatmap[match(row.names(preheatmap.meta), row.names(preheatmap)),]
+
+
+pheatmap(t(preheatmap), 
+         color = colorRampPalette(brewer.pal(n =7, name ="YlOrRd"))(100),  
+         cluster_cols = FALSE, 
+         clustering_method = "ward.D2",
+         labels_col = preheatmap.meta$Cheese, 
+         annotation_col =data.frame(group=preheatmap.meta$Country), 
+         annotation_row =data.frame(group=genus.filtered@tax_table[,4]),
+         angle_col = 45, 
+         gaps_col = cumsum(table(preheatmap.meta$Clusters)))
+```
+About the heatmap
+```{r}
+genus.@sam_data$Richness=(specnumber(genus.@otu_table@.Data))
+TukeyHSD(aov(genus.@sam_data$Richness~as.factor(genus.@sam_data$Clusters)))
+
+genus.@sam_data$Pielou=vegan::diversity(genus.@otu_table@.Data)/(log(specnumber(genus.@otu_table@.Data)))
+TukeyHSD(aov(genus.@sam_data$Pielou~as.factor(genus.@sam_data$Clusters)))
+
+(as.data.frame(genus.@sam_data)%>% group_by(Cheese)%>%summarise(dis=n_distinct(Clusters))) #17 out of 39 cheeses were found in more than one cluster
+
+
+#how many samples per cluster?
+as.data.frame(genus.@sam_data)%>% group_by(Clusters)%>%count()
+#how many cheeses per cluster?
+as.data.frame(genus.@sam_data)%>% group_by(Clusters)%>%summarise(dis=n_distinct(Cheese))
+
+#what percent of each continent per cluster
+as.data.frame(genus.@sam_data)%>% group_by(Clusters,World)%>%summarise(dis=n_distinct(Cheese))
+
+require(ggpubr)
+
+genus.df=as.data.frame(as.matrix(genus.@sam_data))
+genus.df$Clusters=as.factor(genus.df$Clusters)
+genus.df$Richness=as.numeric(genus.df$Richness)
+genus.df$Pielou=as.numeric(as.character(genus.df$Pielou))
+
+Richp=ggboxplot(genus.df, "Clusters", "Richness",
+    color = "Clusters", palette =colorpal, add="jitter")+
+  #stat_compare_means(comparisons = list(c("1","2"), c("2", "3") , c("3","4"), c("1","3"), c("2", "4"),c("1", "4")),label = "p.signif")+ 
+  #stat_compare_means(stat_compare_means(label.y = 1))+
+  theme(legend.position = "none")
+
+
+Evep=ggboxplot(genus.df, "Clusters", "Pielou",
+    color = "Clusters", palette =colorpal, add="jitter")+
+  #stat_compare_means(comparisons = list(c("1","2"), c("2", "3") , c("3","4"), c("1","3"), c("2", "4"),c("1", "4")),label = "p.signif")+ 
+  #stat_compare_means(stat_compare_means(label.y = 1))+
+  theme(legend.position = "none")
+
+
+cowplot::plot_grid(Richp, Evep,labels = c("a", "b"), ncol=2)
+```
+
+#Variance partitioning--explanatory
+```{r}
+genusexp=subset_samples(genus, ! is.na(genus@sam_data$Pasteurized)&
+                          ! is.na(genus@sam_data$Country) &
+                                   ! is.na(genus@sam_data$Animal))
+
+mainvarp <- varpart (vegdist(genusexp@otu_table@.Data), 
+                     genusexp@sam_data$Cheese, 
+                     genusexp@sam_data$Pasteurized, 
+                     genusexp@sam_data$Country, 
+                     genusexp@sam_data$Animal)
+
+plot (mainvarp, digits = 2, Xnames = c('Cheese','Pasteurized', 'Country', 'Animal'), bg=c('darkgoldenrod', 'darkgoldenrod1', 'darkgoldenrod2', 'darkgoldenrod3'))
+mtext("Explanatory")
+
+#whole model
+anova(dbrda(vegdist(genusexp@otu_table@.Data)~genusexp@sam_data$Cheese+genusexp@sam_data$Pasteurized+genusexp@sam_data$Country+genusexp@sam_data$Animal))
+
+
+mainvarp.test=test_vp4(mainvarp)
+```
+#Variance partitioning--technical
+```{r}
+genustech=subset_samples(genus, ! is.na(genus@sam_data$Molecule)&
+                          ! is.na(genus@sam_data$study) &
+                                   ! is.na(genus@sam_data$Extraction_kit)&
+                           ! is.na(genus@sam_data$Sequencer))
+
+techvarp <- varpart (vegdist(genustech@otu_table@.Data), 
+                     as.factor(genustech@sam_data$study), 
+                     as.factor(genustech@sam_data$Molecule), 
+                     as.factor(genustech@sam_data$Extraction_kit), 
+                     as.factor(genustech@sam_data$Sequencer))
+
+plot (techvarp, digits = 2, Xnames = c('Study','Molecule', 'Extraction Kit', 'Sequencer'), bg=c('goldenrod', 'goldenrod1', 'goldenrod2', 'goldenrod3'))
+
+mtext("Explanatory")
+
+
+#Ok now asssess the significance of compartments
+#whole model
+anova(dbrda(vegdist(genustech@otu_table@.Data)~genustech@sam_data$study+genustech@sam_data$Sequencer+genustech@sam_data$Molecule+genustech@sam_data$Extraction_kit))
+
+
+techvarp.test=test_vp4(techvarp)
+
+
+
+```
+
+
+Subset to only lactobacillales
+```{r}
+Lactobacillales=subset_taxa(rarefied, Order=="Lactobacillales")
+Lactobacillales@sam_data$abun=sample_sums(Lactobacillales)/1500
+L=as.data.frame(Lactobacillales@sam_data)
+
+fit.brm.Lact=brm(bf(Richness~abun+(1|study/Cheese)), data = L,family = poisson(link="identity"),cores = parallel::detectCores()-1) #this is a random intercept model, which you would use if you expected relationships to be equal, but the data collection methods to affect total measurements
+
+Lact.est=fitted(fit.brm.Lact, re_formula = NA) %>% 
+  as_tibble() %>%     
+  bind_cols(fit.brm.Lact$data %>% 
+              as_tibble())
+
+
+fit.brm.Lact$fit
+
+Lact.plot=ggplot() +
+  # the data
+  geom_ribbon(data = Lact.est,
+              aes(x = abun, ymax = Q97.5, ymin = Q2.5),
+              alpha = 0.2, fill="goldenrod") +
+  geom_point(data = fit.brm.Lact$data,
+             aes(x = abun, y = Richness, group = study, color=study),
+             size = 1) +
+  # expected values for each environment from the model
+  geom_line(data = Lact.est,
+            aes(x = abun, y = Estimate),
+            size = 1.5, color="darkgoldenrod4") +
+      labs(x = 'Lactobacillales',
+       y = 'Richness') +
+  scale_x_continuous(labels = scales::percent_format(accuracy = 1))+
+  theme_classic() +
+  theme(axis.title = element_text(size = 10))+
+   theme(legend.position = "none")
+
+
+saveRDS(fit.brm.Lact, "Lact.estimates.rds")
+
+
+hypothesis(fit.brm.Lact, "abun<0")
+```

@@ -1,0 +1,876 @@
+	Original.Reads	Filtered.Reads	Denoised.Reads	tabled	Non.chimeric.Reads	pseq	study	PRJ	Molecule	Cheese	Country	Region	Space	doi	Extraction_kit	Extraction_volume	Sequencer	Animal	Time	Pasteurized	pH	NaCl
+SRR13235654	152407	143434	142365	142365	137068	137063	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010024	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235658	575725	551465	550349	550349	529895	529887	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010025	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235659	91955	88072	87383	87383	85712	85710	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010026	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235660	128948	123021	122234	122234	119768	119765	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010027	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235661	12363	11919	11668	11668	11026	11026	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010028	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235666	89613	87092	86255	86255	82122	82103	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010029	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235670	10237	9913	9688	9688	9420	9420	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010030	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR13235674	91978	87335	86287	86287	82810	82796	1	PRJNA681198	DNA	Adobera	Mexico	Los altos de jalisco	Multiple	10.3390/microorganisms9010031	Fecal DNA extraction Kit Bio Basic	0.2g	Ion_Torrent	Cow		NA	NA	NA
+SRR8003184_1	81087	79537	79342	79342	77910	77841	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003186_1	107027	104447	103990	103990	98053	98053	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003187_1	81203	79079	78852	78852	73926	73926	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003188_1	75708	74516	74281	74281	69392	69392	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003189_1	85705	84179	83922	83922	79334	79334	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003190_1	103465	101571	101143	101143	95791	95791	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003191_1	88055	86449	86174	86174	81672	81654	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003192_1	102921	100598	100325	100325	95935	95935	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003193_1	82841	81221	80911	80911	76592	76592	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003194_1	109573	107154	106889	106889	99569	99569	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003195_1	102724	100402	100226	100226	94239	94239	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003196_1	70208	69772	69524	69524	62470	62422	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003197_1	84594	84095	83866	83866	75534	75355	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003198_1	72639	72152	72037	72037	64732	64704	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003199_1	85965	85522	85357	85357	77865	77846	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003200_1	82183	81621	81445	81445	73815	73780	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003201_1	74715	74233	74085	74085	67723	67678	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003202_1	70527	70121	69972	69972	62644	62632	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003203_1	67515	67068	66934	66934	60602	60571	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003204_1	57380	57032	56827	56827	52776	52776	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003205_1	77912	77484	77330	77330	68782	68782	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003206_1	71304	69788	69599	69599	66371	66371	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003207_1	283088	281777	281460	281460	251342	251330	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003208_1	220490	219447	219130	219130	201685	201662	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003209_1	51791	51495	51240	51240	45480	45458	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003210_1	64218	63850	63632	63632	59856	59856	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003211_1	68918	68596	68386	68386	64945	64913	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003212_1	77113	76691	76507	76507	70963	70963	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003213_1	132772	132030	131737	131737	117873	117873	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003214_1	114166	111424	111232	111232	107353	107346	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003215_1	67186	66182	65895	65895	61571	61565	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003216_1	77935	76271	76026	76026	72427	72427	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003217_1	63948	62795	62615	62615	57497	57497	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003218_1	59224	58198	58018	58018	55379	55379	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003219_1	95441	93299	92963	92963	86069	86067	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003220_1	97059	94738	94505	94505	80238	80238	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003221_1	99094	98331	98016	98016	87469	87469	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003222_1	77279	76795	76530	76530	67734	67734	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003223_1	216727	215485	215167	215167	187302	187284	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003224_1	66015	65478	65258	65258	58035	58035	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003225_1	104260	102114	101897	101897	95840	95836	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003226_1	107720	105311	105015	105015	100024	100024	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003227_1	67879	66307	66148	66148	61341	61329	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003228_1	90366	88271	88046	88046	84002	83974	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003229_1	77194	75139	74728	74728	71031	71031	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003230_1	74540	72122	71804	71804	68242	68242	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003232_1	66411	64929	64806	64806	63887	63837	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003233_1	81025	78978	78742	78742	71980	71980	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003234_1	129536	126329	125786	125786	117134	117120	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003235_1	136798	133784	132055	132055	121429	120965	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003236_1	1056	1013	903	903	903	903	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003237_1	146386	142394	141833	141833	137012	136989	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003238_1	117599	114599	114372	114372	105045	105034	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003239_1	117171	114460	114191	114191	106541	106541	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003240_1	98352	96141	95835	95835	90500	90493	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003242_1	113852	111274	110852	110852	102656	102656	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003243_1	90104	88071	87824	87824	83983	83983	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003244_1	95662	93413	93139	93139	84364	84364	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003245_1	131120	130335	130047	130047	121546	121546	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003246_1	40885	39844	39658	39658	36826	36826	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003247_1	65286	63730	63519	63519	59340	59340	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003248_1	68343	66650	66487	66487	63303	63299	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003249_1	88046	85962	85776	85776	81126	81126	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003251_1	79526	77586	77220	77220	72483	72483	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003252_1	98090	96332	96204	96204	91260	91260	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003254_1	92710	90649	90423	90423	85849	85849	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003255_1	80908	78909	78750	78750	76522	76510	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003256_1	98981	96600	96378	96378	90102	90102	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003257_1	77019	75370	75135	75135	70014	70014	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003258_1	76489	75169	74839	74839	67034	67028	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003259_1	80562	78993	78671	78671	72193	72193	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003260_1	72460	70728	70628	70628	63347	63345	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003261_1	94187	92046	91732	91732	83929	83912	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003262_1	109773	107185	106863	106863	101833	101833	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003263_1	64182	62175	61612	61612	57040	57007	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003265_1	103208	100750	100471	100471	98077	98075	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003266_1	77568	77013	76823	76823	69005	68994	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003267_1	269949	268651	268233	268233	249026	248993	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003268_1	313260	310676	310137	310137	292934	292881	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003269_1	38964	38769	38646	38646	35932	35930	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003271_1	39696	39426	39271	39271	37527	37527	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003272_1	64211	63857	63557	63557	59504	59504	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003273_1	36378	36052	35941	35941	34153	34153	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003274_1	34107	33908	33715	33715	32013	32013	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003275_1	52371	51953	51827	51827	47794	47794	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003276_1	78140	76492	76222	76222	71400	71226	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003277_1	73384	71973	71796	71796	68911	68899	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003278_1	73316	71782	71524	71524	66434	66434	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003279_1	69164	68199	68050	68050	64845	64845	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003280_1	101875	99463	99153	99153	90714	90714	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003281_1	69071	67520	67263	67263	61601	61601	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003282_1	72796	71151	70844	70844	67306	67306	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003283_1	68909	67297	67051	67051	61649	61649	10	PRJNA476316	DNA	Serro	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003284_1	110339	107875	107547	107547	103857	103805	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003285_1	93530	91537	91300	91300	86337	86337	10	PRJNA476316	DNA	Serrano	Brazil	SantaCatarina	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003286_1	116503	113787	113582	113582	105804	105804	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003287_1	109110	106233	105887	105887	98499	98475	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003288_1	76759	75156	74988	74988	71364	71349	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003289_1	66416	66030	65883	65883	61914	61914	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003290_1	74938	73478	73210	73210	68782	68782	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003291_1	82065	81558	81284	81284	75879	75841	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003292_1	90702	90100	89815	89815	82453	82338	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003293_1	94457	92773	92549	92549	82714	82714	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003294_1	108763	105979	105662	105662	96980	96980	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003295_1	79223	77524	77403	77403	70000	69982	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003296_1	103347	101008	100748	100748	97268	97268	10	PRJNA476316	DNA	Canastra	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003297_1	72799	72378	72220	72220	66331	66100	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003299_1	78546	78126	77904	77904	71041	71010	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003300_1	69265	68789	68577	68577	62930	62895	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003301_1	59135	58772	58594	58594	54189	54179	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003302_1	58001	57611	57405	57405	53045	53045	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003304_1	73300	72845	72488	72488	66622	66609	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003305_1	63106	62700	62563	62563	58303	58260	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003306_1	67165	66705	66557	66557	61327	61327	10	PRJNA476316	DNA	Araxa	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003308_1	49115	48819	48614	48614	44019	43984	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003309_1	46352	46076	45782	45782	42090	42090	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003311_1	51897	51551	51370	51370	47416	47416	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003312_1	37064	36802	36671	36671	33315	33315	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003313_1	69935	69537	69134	69134	62782	62782	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003315_1	78197	77586	77349	77349	70952	70939	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003316_1	81331	80794	80474	80474	73554	73536	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003317_1	80564	80048	79758	79758	74778	74753	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003318_1	99040	96435	95965	95965	88184	88184	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003319_1	89120	87199	87015	87015	81056	81056	10	PRJNA476316	DNA	Cerrado	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003321_1	74512	73977	73776	73776	69117	69096	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003323_1	53486	53203	53042	53042	50066	50058	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003324_1	64845	64424	64211	64211	60626	60595	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003325_1	72053	71631	71336	71336	64069	64069	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003326_1	71033	70565	70273	70273	65326	65326	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003327_1	72600	72148	71763	71763	65953	65924	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003328_1	83266	82676	82353	82353	75514	75499	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003329_1	58833	58487	58215	58215	53150	53150	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003330_1	70879	69196	68873	68873	64449	64449	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003331_1	69665	68131	67890	67890	64511	64511	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003332_1	85149	83000	82759	82759	78331	78318	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003333_1	94337	92290	92145	92145	85920	85910	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003334_1	85446	83461	83291	83291	81060	81006	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003335_1	91665	89752	89606	89606	87430	87379	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003337_1	74108	73032	72845	72845	71848	71793	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003338_1	94852	92564	92333	92333	87663	87656	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003339_1	81135	79493	79387	79387	77895	77879	10	PRJNA476316	DNA	Colonial	Brazil	RioGrandeDoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003340_1	98976	98390	98129	98129	88259	88259	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003341_1	96107	93832	93550	93550	87839	87839	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003342_1	45807	45421	45220	45220	41715	41715	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003343_1	82091	81498	81298	81298	74214	74192	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003344_1	80834	80366	80158	80158	73099	73083	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003346_1	56290	55955	55704	55704	51517	51517	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003347_1	88084	87550	87415	87415	80798	80786	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003348_1	53735	53419	53229	53229	48576	48576	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003349_1	85871	83711	83515	83515	78822	78803	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003350_1	98885	98231	97893	97893	86886	86883	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003351_1	102379	101785	101575	101575	92863	92832	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003352_1	58485	58123	57957	57957	55876	55824	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003353_1	44201	43965	43786	43786	41574	41554	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003354_1	56579	56245	56028	56028	54674	54674	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003355_1	50948	50647	50498	50498	48120	48027	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003356_1	66911	66531	66048	66048	62228	62174	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003357_1	167537	166519	166054	166054	155538	155377	10	PRJNA476316	DNA	Butter	Brazil	Ceara	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003359_1	31188	31000	30930	30930	28925	28902	10	PRJNA476316	DNA	Marajo	Brazil	Para	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003360_1	35669	35440	35257	35257	34463	34463	10	PRJNA476316	DNA	Marajo	Brazil	Para	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003361_1	34610	34301	34176	34176	33159	33123	10	PRJNA476316	DNA	Marajo	Brazil	Para	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003362_1	88310	86140	85872	85872	76935	76935	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003363_1	87752	86219	85949	85949	77621	77615	10	PRJNA476316	DNA	CampodasVertentes	Brazil	MinasGerais	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003364_1	46008	45692	45443	45443	41960	41960	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003365_1	75658	75151	74674	74674	69565	69565	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003367_1	73506	73033	72695	72695	67739	67739	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003368_1	53634	53311	53064	53064	49232	49232	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003369_1	59414	59035	58772	58772	55131	55131	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003370_1	52685	52312	51948	51948	48405	48403	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003371_1	40243	40017	39802	39802	36639	36639	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003372_1	77942	77374	76958	76958	70922	70885	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003373_1	71860	71430	71168	71168	65667	65667	10	PRJNA476316	DNA	Caipira	Brazil	MatoGrossodoSul	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003374_1	50720	50441	50210	50210	45554	45547	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003375_1	57266	56913	56774	56774	52502	52502	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003377_1	45608	45339	45176	45176	42002	42002	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003378_1	86035	85568	85163	85163	82148	82133	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003379_1	29536	29397	29273	29273	27224	27224	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003380_1	32101	31979	31811	31811	29900	29900	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003381_1	29592	29451	29295	29295	26680	26680	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003382_1	46944	46731	46639	46639	43652	43652	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR8003383_1	36596	36425	36351	36351	34199	34199	10	PRJNA476316	DNA	Curd	Brazil	Sergipe	V3-V4	10.1016/j.fm.2018.12.014	Biostic bacteremia DNA isolation kit MOBIO	Dilution	Miseq	Cow		NO	NA	NA
+SRR5345039_1	27481	27468	27445	27445	26307	26307	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345040_1	20347	20328	20297	20297	19633	19633	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345041_1	27745	27728	27700	27700	25978	25974	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345042_1	19939	19924	19883	19883	19262	19262	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345043_1	132686	132433	132252	132252	124128	124128	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345044_1	17547	17535	17509	17509	17025	17025	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345045_1	20310	20293	20235	20235	19326	19326	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345046_1	22165	22149	22084	22084	21558	21558	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345047_1	19754	19746	19691	19691	18905	18905	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345048_1	54502	54437	54361	54361	50944	50944	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345049_1	28487	28458	28421	28421	27406	27406	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345050_1	21209	21184	21142	21142	20417	20417	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345051_1	19788	19759	19738	19738	19036	19036	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345053_1	20272	20246	20197	20197	19573	19568	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR5345054_1	74015	73906	73830	73830	70044	70044	11	PRJNA379167	DNA	PecorinoCrotonese	Italy	Calabria	V3-V4	10.1016/j.foodres.2018.10.024	FastDNA ProSoil Direct Kit	10g	Miseq	Sheep		YES	NA	NA
+SRR6450985_1	32492	32436	32343	32343	30533	30533	12	PRJNA413466	DNA	Qula	China	Xizang	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450986_1	35756	35697	35638	35638	34616	34616	12	PRJNA413466	DNA	Qula	China	Yunnan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450987_1	35473	35402	35332	35332	34324	34324	12	PRJNA413466	DNA	Qula	China	Yunnan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450988_1	37368	37299	37251	37251	36036	36036	12	PRJNA413466	DNA	Qula	China	Yunnan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450989_1	31515	31449	31277	31277	30498	30498	12	PRJNA413466	DNA	Qula	China	Qinghai	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450990_1	36583	36515	36362	36362	34549	34549	12	PRJNA413466	DNA	Qula	China	Qinghai	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450991_1	35591	35521	35433	35433	33566	33562	12	PRJNA413466	DNA	Qula	China	Xizang	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450992_1	34605	34543	34475	34475	32713	32713	12	PRJNA413466	DNA	Qula	China	Xizang	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450993_1	35507	35442	35346	35346	34252	34248	12	PRJNA413466	DNA	Qula	China	Gansu	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450994_1	35633	35571	35407	35407	34551	34551	12	PRJNA413466	DNA	Qula	China	Qinghai	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450995_1	33141	33067	32967	32967	31827	31827	12	PRJNA413466	DNA	Qula	China	Gansu	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450996_1	33850	33770	33636	33636	32210	32207	12	PRJNA413466	DNA	Qula	China	Gansu	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450997_1	32339	32277	32181	32181	30463	30461	12	PRJNA413466	DNA	Qula	China	Sichuan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450998_1	33016	32964	32814	32814	30696	30696	12	PRJNA413466	DNA	Qula	China	Sichuan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR6450999_1	30615	30563	30494	30494	29014	29014	12	PRJNA413466	DNA	Qula	China	Sichuan	V3-V4	10.7717/peerj.6044	E.Z.N.A. Soil DNA Kit 	0.2g	Miseq	Yak		NO	NA	NA
+SRR5437774_1	377	362	357	357	357	357	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437775_1	40303	37853	37395	37395	37395	37222	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437776_1	75999	70597	69517	69517	69394	68820	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437777_1	88526	85602	85222	85222	80074	79981	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437778_1	51704	49902	49786	49786	49750	49636	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437779_1	82889	80094	79858	79858	76891	76740	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437780_1	75814	73289	72928	72928	70969	70905	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437781_1	6697	6418	6353	6353	6353	6353	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437782_1	241881	233718	233374	233374	232227	231280	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437783_1	111960	108122	107965	107965	107654	107362	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437784_1	54910	53019	52897	52897	52720	52578	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437785_1	56685	54507	54178	54178	53771	53670	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437786_1	1367619	1314858	1311239	1311239	1296760	1292355	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437787_1	286087	271381	269682	269682	253818	253152	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437788_1	287365	270836	269603	269603	248100	246977	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437789_1	13632	13299	13189	13189	13189	13189	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437790_1	63167	60482	60135	60135	59650	59503	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	NA	NA
+SRR5437791_1	226289	222102	221621	221621	220281	217616	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	NA	NA
+SRR5437792_1	11230	10804	10753	10753	10753	10744	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437793_1	113059	109031	108864	108864	108368	108114	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437794_1	76260	74079	73739	73739	73679	73615	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437795_1	56655	54150	54029	54029	53629	53490	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437796_1	176217	168429	168065	168065	167362	166984	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437797_1	63457	60765	60662	60662	60508	60373	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437798_1	26854	25629	25564	25564	25527	25527	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437799_1	85505	81613	81402	81402	80555	80392	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437800_1	106511	104297	103967	103967	103444	102065	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437801_1	122725	118556	117767	117767	113591	113048	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437802_1	161119	154526	153532	153532	147087	146010	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437803_1	5852	5656	5613	5613	5613	5613	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437804_1	85151	82986	82507	82507	81162	80925	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437805_1	81914	79742	79330	79330	78962	78808	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437806_1	63799	61824	61513	61513	59403	59167	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437807_1	71478	69811	69576	69576	67073	66998	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437808_1	113268	110310	109855	109855	106090	105376	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437809_1	85218	82774	82123	82123	79409	79113	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437810_1	13083	12438	12291	12291	12210	12210	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437811_1	119716	116676	116307	116307	112902	112334	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437812_1	89972	87315	86998	86998	84358	84143	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437813_1	76501	74120	73803	73803	71200	71041	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437814_1	158682	154055	153437	153437	148864	148502	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437815_1	62183	60653	60463	60463	58624	58551	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	NA	NA
+SRR5437816_1	141283	138261	138010	138010	133817	132912	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437817_1	62843	60906	60600	60600	58777	58774	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NA	NA	NA
+SRR5437818_1	170426	161732	161096	161096	143243	140612	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NA	NA	NA
+SRR5437819_1	90176	85245	84395	84395	84067	82284	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	NA	NA
+SRR5437820_1	378639	358592	357358	357358	355484	347605	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	NA	NA
+SRR5437821_1	113563	108076	107351	107351	107034	105632	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	NA	NA
+SRR5437822_1	348961	335468	334061	334061	332795	331337	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437823_1	231721	222251	221870	221870	221000	219088	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437824_1	187568	178730	178354	178354	177761	175144	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437825_1	107892	103798	103270	103270	102680	102314	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437826_1	287282	276399	275587	275587	273856	272049	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437827_1	110849	106939	106638	106638	106116	105579	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437828_1	219955	212145	211777	211777	210675	210044	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437829_1	17665	15950	15669	15669	14710	13720	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437830_1	54925	52248	51961	51961	51850	51330	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437831_1	100	88	86	86	86	86	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437832_1	90226	81649	80692	80692	77918	75642	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437833_1	67677	61097	60533	60533	60407	58132	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437834_1	47355	43922	43603	43603	43571	42902	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437835_1	41216	39286	39143	39143	38786	38449	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	NA	NA
+SRR5437836_1	69885	65995	65428	65428	64567	63851	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.37	2.05
+SRR5437837_1	56705	54165	53889	53889	53657	53424	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.37	2.05
+SRR5437838_1	84899	80791	80285	80285	79289	78581	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.48	2.05
+SRR5437839_1	42396	39825	39553	39553	39455	38835	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.48	2.05
+SRR5437840_1	32334	27609	27341	27341	27257	24390	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.37	1.62
+SRR5437841_1	85851	81808	81601	81601	81220	80519	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.37	1.62
+SRR5437842_1	46883	45930	45700	45700	45435	45435	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.29	1.99
+SRR5437843_1	51887	50865	50672	50672	50466	50250	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.29	1.99
+SRR5437844_1	85756	84058	83762	83762	83256	82985	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.4	1.96
+SRR5437845_1	18191	17849	17791	17791	17751	17751	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		NO	5.4	1.96
+SRR5437846_1	6081	5927	5900	5900	5900	5900	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	5.5	2
+SRR5437847_1	28015	27442	27318	27318	27274	27131	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	5.5	2
+SRR5437848_1	67793	66354	66081	66081	65795	65499	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	5.34	1.69
+SRR5437849_1	32374	31713	31607	31607	31557	31482	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		NO	5.34	1.69
+SRR5437850_1	93290	91333	91099	91099	90606	89972	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	5.5	1.79
+SRR5437851_1	42434	41555	41297	41297	41154	40976	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Goat		YES	5.5	1.79
+SRR5437852_1	113524	111245	111062	111062	110386	109179	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.4	1.98
+SRR5437853_1	82224	80418	80142	80142	79638	78721	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.4	1.98
+SRR5437854_1	39716	38925	38802	38802	38744	38649	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.39	1.7
+SRR5437855_1	56219	55184	54772	54772	54483	54379	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.39	1.7
+SRR5437856_1	139067	136480	135880	135880	134944	133779	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.59	2.1
+SRR5437857_1	22224	21758	21625	21625	21561	21561	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.59	2.1
+SRR5437858_1	75869	74260	73940	73940	73554	72698	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.86	1.44
+SRR5437859_1	14623	14278	14198	14198	14198	14158	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.86	1.44
+SRR5437860_1	51416	50297	50023	50023	49798	49640	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.64	1.69
+SRR5437861_1	177	162	158	158	158	158	13	PRJNA382370	DNA	Gouda	Netherlands	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.64	1.69
+SRR5437862_1	91574	87930	87557	87557	84160	83815	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.43	2.15
+SRR5437863_1	112314	109745	109222	109222	108598	107434	13	PRJNA382370	DNA	Gouda	Unknown	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.43	2.15
+SRR5437864_1	71147	69611	69285	69285	68982	68436	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.26	2.39
+SRR5437865_1	68607	67191	66946	66946	66554	66463	13	PRJNA382370	DNA	Gouda	USA	NA	V1-V3	10.1186/s12866-018-1323-4	PowerFood Microbial DNA Isolation Kit MOBIO	1g	Miseq	Cow		YES	5.26	2.39
+SRR3307076	3839	3771	3757	3757	3757	3757	14	PRJNA316626	DNA	Adobera	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		YES	NA	NA
+SRR3307077	27270	26856	26801	26801	26776	26776	14	PRJNA316626	DNA	Adobera	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307078	41924	41441	41336	41336	41014	41014	14	PRJNA316626	DNA	Zacatecas	Mexico	Queretaro	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307079	68543	67647	67601	67601	67371	67371	14	PRJNA316626	DNA	Chihuahua	Mexico	Chihuahua	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		YES	NA	NA
+SRR3307080	42712	42189	42121	42121	41822	41822	14	PRJNA316626	DNA	Cincho	Mexico	Veracruz	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307081	56509	56072	55837	55837	55641	55641	14	PRJNA316626	DNA	Oaxaca	Mexico	Hidalgo	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307082	6141	6071	6055	6055	5848	5848	14	PRJNA316626	DNA	Canasto	Mexico	Durango	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307083	10919	10873	10836	10836	10836	10836	14	PRJNA316626	DNA	Asadero	Mexico	Queretaro	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307084	26384	26143	26100	26100	26019	26019	14	PRJNA316626	DNA	Manchego	Mexico	Queretaro	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307085	69103	68616	68587	68587	67088	67088	14	PRJNA316626	DNA	Adobera_mesa	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307086	48779	48200	48165	48165	47009	47009	14	PRJNA316626	DNA	Cotija	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307087	12312	12201	12197	12197	12170	12170	14	PRJNA316626	DNA	Panela_pasteurizado	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		YES	NA	NA
+SRR3307088	56460	55611	55589	55589	55377	55377	14	PRJNA316626	DNA	Panela_artesanal	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307089	83900	83196	83177	83177	82803	82803	14	PRJNA316626	DNA	Jocoque	Mexico	Jalisco	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307090	57532	56841	56768	56768	55750	55750	14	PRJNA316626	DNA	Chiapas	Mexico	Chiapas	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307091	64610	63536	63500	63500	63161	63161	14	PRJNA316626	DNA	Ranchero_Estado_de_Mexico	Mexico	Estado_de_mexico	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR3307092	59447	58837	58795	58795	56066	56066	14	PRJNA316626	DNA	Ranchero_Veracruz	Mexico	Veracruz	V3-V4	10.1016/j.foodres.2018.07.023	Phenol Chloroform	0.1g	Ion_Torrent	Cow		NO	NA	NA
+SRR6725743_1	11688	11650	11637	11637	11606	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725744_1	44392	44245	44215	44215	44091	13	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725745_1	11454	11426	11412	11412	11261	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725746_1	14899	14836	14746	14746	14156	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725747_1	10815	10789	10757	10757	10214	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725748_1	14384	14353	14307	14307	13567	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725759_1	21476	21422	21415	21415	21381	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725760_1	26265	26176	26170	26170	26124	3	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725763_1	25060	24955	24943	24943	24875	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6725764_1	18216	18178	18176	18176	18112	0	15	PRJNA434072	DNA	Parmesan	Italy	Parma	V3	10.1128/AEM.00706-18 	DNeasy mastitis minikit QIAGEN	3g	Miseq	Cow		YES	NA	NA
+SRR6365128	38871	38184	38159	38159	37861	37861	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365129	50970	49764	49698	49698	48902	48902	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365131	68008	66516	66359	66359	64680	64680	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365132	44014	42154	42079	42079	41755	41755	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365133	36704	35883	35787	35787	35039	35039	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365134	32977	32355	32326	32326	32242	32242	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365136	81984	80486	80449	80449	79886	79886	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365137	83433	80242	80128	80128	79375	79370	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365138	48981	47696	47635	47635	47441	47431	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365144	51151	50158	50097	50097	49756	49756	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365145	74027	72518	72438	72438	72037	72037	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365146	90527	88556	88428	88428	87842	87842	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365147	92764	90174	90128	90128	89767	89745	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365148	56834	55695	55565	55565	54768	54768	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365149	36302	35341	35276	35276	35185	35185	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365150	54470	53439	53381	53381	52281	52277	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365151	43114	42127	42029	42029	41898	41898	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365152	45657	44586	44459	44459	44059	44059	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365153	40684	39495	39387	39387	39300	39300	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365154	158119	154291	154201	154201	152378	152373	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365158	61670	59998	59920	59920	59516	59516	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365159	40567	39265	39196	39196	38898	38898	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365160	61171	60006	59959	59959	59328	59328	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR6365161	48665	47538	47467	47467	46598	46598	16	PRJNA421256	DNA	Cantal	France	Herbipole	V3-V4	10.1038/s41598-017-18447-y	Phenol Chloroform	NA	Miseq	Cow		NO	NA	NA
+SRR2442825	10780	10750	10519	10519	10458	9731	17	PRJNA295825	DNA	Swiss semi hard	Switzerland	NA	Multiple	10.3934/microbiol.2018.4.622	GenEluteTM Bacterial Genomic DNA Kit	Dilution	454	Cow		NO	NA	NA
+SRR2442826	19121	19067	18752	18752	18620	16248	17	PRJNA295825	DNA	Swiss semi hard	Switzerland	NA	Multiple	10.3934/microbiol.2018.4.622	GenEluteTM Bacterial Genomic DNA Kit	Dilution	454	Cow		NO	NA	NA
+SRR2442871	10688	10662	10490	10490	10462	9116	17	PRJNA295825	DNA	Swiss semi hard	Switzerland	NA	Multiple	10.3934/microbiol.2018.4.622	GenEluteTM Bacterial Genomic DNA Kit	Dilution	454	Cow		NO	NA	NA
+SRR2297190	12714	12700	12663	12663	10921	10913	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR2297191	14255	14227	14162	14162	12102	12102	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR2297192	13536	13504	13396	13396	11485	10653	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR2297193	10658	10643	10487	10487	9392	9099	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR2297194	13515	13502	13384	13384	11981	11426	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR2297195	11432	11403	11194	11194	9618	9337	18	PRJNA294953	RNA	Grana Padano	Italy	Brescia	V1-V3	10.1016/j.ijfoodmicro.2017.07.002	TRIzol	0.15g	454	Cow		NO	NA	NA
+SRR3453032_1	58984	56423	56275	56275	55730	55730	19	PRJNA319425	RNA	Liqvan	Iran	Tabriz	V3-V4	10.1016/j.fm.2017.03.019	Masterpure DNA and RNA purification kit	5g	Miseq	Sheep		NO	5.02	NA
+SRR3453033_1	62933	58625	58372	58372	58010	58001	19	PRJNA319425	RNA	Liqvan	Iran	Tabriz	V3-V4	10.1016/j.fm.2017.03.019	Masterpure DNA and RNA purification kit	5g	Miseq	Sheep		NO	5.02	NA
+SRR3453034_1	119585	116013	115807	115807	115130	115122	19	PRJNA319425	RNA	Liqvan	Iran	Tabriz	V3-V4	10.1016/j.fm.2017.03.019	Masterpure DNA and RNA purification kit	5g	Miseq	Sheep		NO	5.02	NA
+SRR3453035_1	66451	58359	58094	58094	57667	57664	19	PRJNA319425	RNA	Liqvan	Iran	Tabriz	V3-V4	10.1016/j.fm.2017.03.019	Masterpure DNA and RNA purification kit	5g	Miseq	Sheep		NO	5.02	NA
+SRR3453036_1	49312	39923	39736	39736	39130	39127	19	PRJNA319425	RNA	Liqvan	Iran	Tabriz	V3-V4	10.1016/j.fm.2017.03.019	Masterpure DNA and RNA purification kit	5g	Miseq	Sheep		NO	5.02	NA
+ERR2281981	93671	93608	93378	93378	91231	91231	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+ERR2281982	64275	64248	64180	64180	63268	63268	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+ERR2281983	52268	52238	52190	52190	52072	52072	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+ERR2281984	116428	116372	116258	116258	115799	115799	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+ERR2281985	78092	78062	77917	77917	75528	75528	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+ERR2281986	79121	79083	78966	78966	76513	76513	2	PRJEB24792	DNA	Tafi	Argentina	Tucuman	V3-V4	10.1016/j.ijfoodmicro.2020.108894	Phenol Chloroform	NA	Miseq	Cow		NO	5.2	NA
+SRR3168612	2818	2764	2763	2763	2763	2763	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.28	NA
+SRR3168613	3275	3204	3194	3194	3194	3194	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.28	NA
+SRR3168618	2963	2896	2890	2890	2890	2890	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.28	NA
+SRR3168619	3374	3299	3296	3296	3296	3296	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168620	3510	3432	3430	3430	3430	3430	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168621	3771	3684	3677	3677	3677	3677	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168622	4409	4306	4306	4306	4188	4188	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.22	NA
+SRR3168759	3129	3074	3073	3073	3073	3073	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.22	NA
+SRR3168760	3587	3489	3485	3485	3388	3388	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.22	NA
+SRR3168761	3565	3488	3479	3479	3479	3479	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168766	3795	3692	3688	3688	3618	3618	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168776	3917	3833	3825	3825	3825	3825	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.29	NA
+SRR3168843	3952	3752	3748	3748	3386	3374	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.21	NA
+SRR3168844	4211	4033	3991	3991	3563	3542	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.21	NA
+SRR3168845	4250	4084	4074	4074	3667	3581	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.21	NA
+SRR3168847	7262	6954	6888	6888	6872	6872	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.39	NA
+SRR3168849	4861	4606	4555	4555	4196	4140	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.39	NA
+SRR3168850	5307	5105	5046	5046	4940	4940	20	PRJNA311540	DNA	Caciocavallo of Castelfranco	Italy	Campania	V1-V3	10.1016/j.fm.2016.11.016	Biostic TM Bacteremia DNA isolation kit MOBIO	20ml	454	Cow		NO	5.39	NA
+SRR1514250	9891	8135	8091	8091	7862	7862	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514251	4188	3997	3956	3956	3956	3956	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514252	5541	5298	5251	5251	5200	5190	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514253	7913	7301	7271	7271	6790	6790	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514254	8083	7379	7285	7285	6939	6939	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514255	7242	6771	6698	6698	6392	6392	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514263	11614	10442	10402	10402	10319	10319	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514264	48843	22531	22483	22483	19923	19923	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514265	3661	3422	3401	3401	3401	3401	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514266	3542	3319	3297	3297	3297	3297	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514267	4351	3820	3800	3800	3800	3800	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514268	3472	3226	3182	3182	3182	3182	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514276	4351	4075	4057	4057	4057	4057	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514277	11017	10530	10504	10504	10504	10504	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514278	5287	5155	5101	5101	5101	5101	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514279	5290	4312	4265	4265	4265	4265	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514280	6897	6212	6187	6187	6187	6187	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR1514281	6058	5746	5659	5659	5411	5411	21	PRJNA255096	RNA	Grana	Italy	Piedmont	V1-V3	10.1128/AEM.00999-16	Masterpure DNA and RNA purification kit	NA	454	Cow		NO	NA	NA
+SRR2060599	5044	4719	4716	4716	4716	4716	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	6.01	4
+SRR2060600	5361	5121	5118	5118	4086	4086	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.6	4.1
+SRR2060601	6693	6405	6404	6404	6404	6404	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.8	4.2
+SRR2060602	7371	7060	7015	7015	6651	6651	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	6.03	3.8
+SRR2060603	10622	10342	10341	10341	10341	10337	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.51	3.4
+SRR2060604	5830	5598	5595	5595	5538	5538	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.71	3.7
+SRR2060605	7785	7317	7317	7317	7017	7017	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	6.03	4.3
+SRR2060606	7616	7361	7352	7352	7352	7352	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.99	4.4
+SRR2060607	5173	4939	4925	4925	4875	4875	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.88	4.1
+SRR2060608	5869	5520	5514	5514	5403	5403	23	PRJNA286758	RNA	Pecorino Toscano	Italy	Tuscany	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		YES	5.83	3.2
+SRR2060609	3638	3430	3422	3422	1512	1512	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.82	4.3
+SRR2060610	3086	2933	2910	2910	2465	2465	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.81	3.9
+SRR2060611	6314	5902	5845	5845	4120	4120	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.91	4.3
+SRR2060612	4704	4390	4335	4335	3865	3865	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.84	3.6
+SRR2060613	5637	5326	5296	5296	4148	4148	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.88	3.5
+SRR2060614	5078	4734	4682	4682	3113	3113	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.85	3.3
+SRR2060615	6167	5812	5758	5758	5229	5229	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.83	3.9
+SRR2060616	4720	4452	4397	4397	3777	3777	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.77	4.5
+SRR2060617	5814	5391	5318	5318	4073	4073	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.82	4.4
+SRR2060618	3707	3598	3565	3565	3108	3108	23	PRJNA286758	RNA	Pecorino Siciliano	Italy	Sicily	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.83	3.8
+SRR2060619	7812	6889	6866	6866	5348	5346	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.83	4.5
+SRR2060621	6120	5447	5447	5447	4839	4839	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.76	4.6
+SRR2060622	5668	5079	5067	5067	5067	5067	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.85	4
+SRR2060623	9224	8267	8265	8265	6465	6465	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.79	4.1
+SRR2060624	7868	6989	6983	6983	6347	6347	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.83	3.9
+SRR2060625	5924	5245	5229	5229	4547	4547	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.79	4.6
+SRR2060626	5343	4777	4776	4776	4776	4776	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.75	4.5
+SRR2060627	5622	5043	5042	5042	4484	4484	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.75	4.4
+SRR2060628	11897	10591	10571	10571	10522	10522	23	PRJNA286758	RNA	Fiore Sardo	Italy	Sardinia	V1-V3	10.1371/journal.pone.0153213	RiboPureTM?Bacteria Kit Ambion	NA	454	Sheep		NO	5.76	4.2
+SRR1759381	6008	5589	5558	5558	5437	5433	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759382	7614	7116	7045	7045	6914	6899	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759383	7422	7034	6984	6984	6410	6410	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759384	5312	5008	4894	4894	4754	4754	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759385	5745	5448	5419	5419	5419	5419	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759386	4984	4846	4817	4817	4742	4742	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759387	3770	3662	3632	3632	3632	3632	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759388	6237	5991	5982	5982	5816	5816	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759389	6081	5866	5850	5850	5773	5764	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759390	4171	4072	4066	4066	3797	3797	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759391	3309	3235	3214	3214	3142	3142	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759392	4647	4489	4410	4410	4401	4401	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759393	5146	4994	4909	4909	4746	4746	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759394	6020	5750	5725	5725	5642	5642	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759395	3476	3421	3402	3402	3292	3292	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759396	7371	6962	6955	6955	6746	6746	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759397	7289	6652	6652	6652	6316	6316	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759398	5041	4754	4666	4666	4284	4284	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759399	5605	5465	5420	5420	5122	5118	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759400	6097	5854	5831	5831	5512	5512	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759401	5003	4830	4819	4819	4819	4819	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759402	5107	4982	4971	4971	4955	4955	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759403	4208	4157	4142	4142	4118	4080	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759404	10637	10435	10426	10426	10045	9923	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759405	6598	6453	6422	6422	6356	6356	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759406	5975	5834	5811	5811	5788	5701	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759407	7946	7809	7803	7803	7803	7803	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759408	7235	7049	7019	7019	6669	6669	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR1759409	5583	5519	5506	5506	5429	5429	24	PRJNA272374	DNA	Mozarella	Italy	NA	V1-V3	10.1016/j.ijfoodmicro.2015.09.002	MoBio Power food Bacterial DNA Extraction kit 	15g	454	Cow		YES	NA	NA
+SRR2034419_1	44355	44350	44032	44032	43897	37672	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034420_1	122677	122670	122098	122098	118482	99020	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034421_1	93946	93939	93400	93400	93141	83798	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034422_1	143690	143681	142985	142985	140428	136127	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034423_1	79555	79550	79067	79067	78878	74439	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034424_1	132295	132289	131713	131713	131417	124734	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034425_1	118840	118834	118359	118359	118176	114107	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034426_1	125454	125447	124772	124772	124559	114573	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034427_1	112104	112096	111429	111429	111323	100801	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034428_1	158207	158201	157380	157380	155752	152714	25	PRJNA277133	DNA	Grana Padano	Italy	Padova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034429_1	162930	162927	162139	162139	159133	148909	25	PRJNA277133	DNA	Grana Padano	Italy	Vicenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034430_1	143491	143483	142881	142881	142291	136701	25	PRJNA277133	DNA	Grana Padano	Italy	Vicenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034431_1	110258	110253	109751	109751	108840	103716	25	PRJNA277133	DNA	Grana Padano	Italy	Vicenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034432_1	113633	113630	112908	112908	112674	112283	25	PRJNA277133	DNA	Grana Padano	Italy	Cuneo	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034433_1	182018	182014	181259	181259	179550	172324	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034434_1	179214	179208	178562	178562	177266	173438	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034435_1	166681	166677	165975	165975	163437	162317	25	PRJNA277133	DNA	Grana Padano	Italy	Brescia	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034436_1	139240	139235	138661	138661	137556	129969	25	PRJNA277133	DNA	Grana Padano	Italy	Trento	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034437_1	145829	145825	145177	145177	144450	140313	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034438_1	124289	124282	123721	123721	121925	113158	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034439_1	97772	97767	97247	97247	97204	95756	25	PRJNA277133	DNA	Grana Padano	Italy	Cremona	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034440_1	122621	122618	122066	122066	121953	115451	25	PRJNA277133	DNA	Grana Padano	Italy	Cremona	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034441_1	123799	123792	122954	122954	122905	116400	25	PRJNA277133	DNA	Grana Padano	Italy	Brescia	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034442_1	106412	106408	105640	105640	105507	102552	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034443_1	71910	71908	71374	71374	71344	66194	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034444_1	166137	166131	165303	165303	163911	161908	25	PRJNA277133	DNA	Grana Padano	Italy	Bergamo	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034445_1	201031	201023	200263	200263	198174	197196	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034446_1	105903	105899	105239	105239	104258	103028	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034447_1	153293	153287	152595	152595	152276	143642	25	PRJNA277133	DNA	Grana Padano	Italy	Cuneo	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034448_1	187859	187854	187051	187051	186279	182589	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034449_1	160285	160280	159693	159693	158565	155951	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034450_1	149633	149626	148944	148944	146685	146292	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034451_1	171470	171468	170730	170730	168532	167773	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034452_1	174656	174649	173921	173921	170620	169910	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034453_1	107655	107652	107049	107049	106099	104295	25	PRJNA277133	DNA	Grana Padano	Italy	Piacenza	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034454_1	95393	95390	94873	94873	93061	91810	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR2034455_1	130401	130391	129892	129892	128675	110270	25	PRJNA277133	DNA	Grana Padano	Italy	Mantova	V3-V4	10.1016/j.fm.2015.07.004	FastDNA SPIN kit	50g	Miseq	Cow		NO	NA	NA
+SRR1205255	3578	3152	3115	3115	2641	2641	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205257	3057	2990	2931	2931	2861	2861	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205259	3487	3300	3248	3248	2955	2955	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205261	4682	4505	4462	4462	4018	4018	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205263	3269	3242	3191	3191	2695	2695	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205265	2692	2635	2574	2574	2505	2485	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205267	3115	3102	3075	3075	2894	2887	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205270	3409	3364	3322	3322	2739	2739	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1205280	22580	22197	22135	22135	21557	21557	27	PRJNA230456	RNA	Fontina	Italy	Aosta Valley	V3	10.1016/j.ijfoodmicro.2014.05.021	NA	NA	454	Cow	Yes	NO	NA	NA
+SRR1171497	3648	3620	3585	3585	3312	2399	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.88	1.6
+SRR1171498	1173	1167	1159	1159	1159	716	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.17	2.9
+SRR1171499	6334	6302	6148	6148	4688	1601	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.16	3.1
+SRR1171500	9357	9329	9134	9134	6420	2266	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.07	3.2
+SRR1171501	2623	2605	2548	2548	2548	1771	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.09	3.3
+SRR1171502	3687	3669	3574	3574	2966	1545	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.11	3.4
+SRR1171503	7083	7054	6807	6807	5323	1875	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.13	3.5
+SRR1171504	4268	4221	4164	4164	3823	2510	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.12	3.9
+SRR1171505	4246	4219	4123	4123	3991	2845	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.1	4.2
+SRR1171508	5001	4967	4916	4916	4843	3715	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.88	1.6
+SRR1171509	2206	2191	2133	2133	1973	1327	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.17	2.9
+SRR1171510	3398	3378	3264	3264	3178	2308	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.16	3.1
+SRR1171511	3506	3484	3440	3440	3167	1673	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.07	3.2
+SRR1171512	8945	8914	8625	8625	6849	2721	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.09	3.3
+SRR1171513	2219	2205	2157	2157	2100	1703	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.11	3.4
+SRR1171514	7843	7814	7661	7661	5687	1671	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.13	3.5
+SRR1171515	7965	7946	7763	7763	5587	1782	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.12	3.9
+SRR1171516	6304	6275	6182	6182	5069	2101	28	PRJNA238397	RNA	Canestrato Pugliese	Italy	Apulia	V1-V3	10.1128/AEM.00757-14	RiboPure-Bacteria kit	10g	454	Sheep	Yes	NO	5.1	4.2
+SRR2035976	4385	4248	4218	4218	3658	3658	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035977	2309	2254	2242	2242	2044	2044	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035978	4342	4177	4130	4130	4003	4003	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035979	3233	3073	2921	2921	2544	2544	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035980	3345	3243	3213	3213	2760	2760	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035981	3434	3227	3171	3171	2842	2842	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035984	3750	3606	3588	3588	3392	3392	29	"	PRJNA283170"	DNA	Grancacio	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	Sheep		NA	NA	NA
+SRR2035985	3239	3111	3060	3060	3060	3060	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035986	4263	4076	3968	3968	3968	3968	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035987	3413	3312	3302	3302	3090	3090	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035988	3812	3661	3604	3604	3311	3309	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035989	1497	1480	1462	1462	1462	1462	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035990	5377	5191	5144	5144	4919	4919	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035992	4240	4077	4053	4053	3789	3789	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035993	4326	4089	4035	4035	3954	3954	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035994	4763	4623	4496	4496	4394	4394	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035995	3426	3244	3213	3213	3039	3039	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035996	3690	3591	3572	3572	3326	3326	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035997	4157	3961	3934	3934	3681	3606	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035998	1119	1103	1096	1096	1096	1096	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2035999	2926	2841	2777	2777	2599	2599	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036000	4747	4591	4584	4584	4332	4332	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036001	4137	3904	3817	3817	3817	3214	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036002	3795	3679	3655	3655	3013	3013	29	"	PRJNA283170"	DNA	Mozzarella	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	Cow		YES	NA	NA
+SRR2036003	3992	3663	3629	3629	3598	3598	29	"	PRJNA283170"	DNA	Ricotta	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	Cow		NA	NA	NA
+SRR2036004	2746	2645	2591	2591	2509	2509	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036005	4291	3975	3934	3934	3821	3821	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036006	4767	4555	4539	4539	4227	4227	29	"	PRJNA283170"	DNA	Scamorza	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	Cow		YES	NA	NA
+SRR2036007	3124	2948	2902	2902	2729	2729	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036008	2078	1999	1951	1951	1773	1773	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036010	3186	3018	2943	2943	2437	2437	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036011	3690	3503	3481	3481	2884	2884	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036015	3539	3387	3359	3359	2837	2837	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036016	2513	2438	2412	2412	2364	2364	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036017	3588	3424	3422	3422	3369	3369	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036018	4153	4034	3994	3994	3045	3045	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036019	3260	3184	3177	3177	3016	3016	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR2036020	4175	3977	3969	3969	3714	3714	29	"	PRJNA283170"	DNA	REMOVE	Italy	Salerno	V1-V3	10.1128/AEM.02294-15	Biostic TM Bacteremia DNA isolation kit MOBIO	2ml	454	NA		0	NA	NA
+SRR12969616_1	85712	85373	85290	85290	82979	82979	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969617_1	104736	104305	104186	104186	101277	101277	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969618_1	105623	105180	105046	105046	102519	102507	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969619_1	88208	87853	87749	87749	85447	85447	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969620_1	104514	104088	104004	104004	101336	101336	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969621_1	80787	80489	80392	80392	79021	79021	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969622_1	62696	62423	62214	62214	60160	60160	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969623_1	134290	133683	133359	133359	127839	127839	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969624_1	82136	81780	81537	81537	78797	78797	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969625_1	52994	52742	52684	52684	49986	49986	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969626_1	56784	56526	56464	56464	54562	54562	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969627_1	53207	52888	52743	52743	50951	50951	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969628_1	58858	58572	58504	58504	56416	56416	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969629_1	60810	60515	60446	60446	58737	58737	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969630_1	59938	59631	59559	59559	57785	57755	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969631_1	49982	49779	49692	49692	48216	48210	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969632_1	65538	65281	65197	65197	62360	62355	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969633_1	52946	52674	52611	52611	51023	51023	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969634_1	47930	47676	47618	47618	45891	45891	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969635_1	19423	19338	19298	19298	19298	19298	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969636_1	23955	23816	23783	23783	23783	23783	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969637_1	28044	27918	27881	27881	27846	27846	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969638_1	29974	29842	29797	29797	29797	29797	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969639_1	33330	33180	33129	33129	32952	32952	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969640_1	33613	33448	33397	33397	33327	33327	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969641_1	29086	28944	28896	28896	28864	28864	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969642_1	40354	40182	40168	40168	39828	39828	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969643_1	104805	104396	104288	104288	102021	102021	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969644_1	40316	40144	40101	40101	40046	40046	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969645_1	38100	37916	37873	37873	37768	37768	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969646_1	33293	33164	33122	33122	32810	32810	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969647_1	44632	44424	44377	44377	43975	43975	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969648_1	46049	45848	45807	45807	44610	44610	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969649_1	52607	52320	52258	52258	51097	51097	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969650_1	56661	56354	56298	56298	54865	54865	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969651_1	100698	100289	100169	100169	97838	97838	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969652_1	107542	107084	106984	106984	104077	104066	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969653_1	94171	93790	93714	93714	91302	91297	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969654_1	97515	97110	97030	97030	95583	95573	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR12969655_1	70770	70457	70361	70361	69155	69155	3	PRJNA673975	DNA	Cheddar	Australia	NA	V3-V4	10.3389/fmicb.2020.592060	PowerSoil DNA Isolation Kit MOBIO	0.2g	Miseq	Cow		NA	NA	NA
+SRR2126333	5265	5110	5098	5098	5056	5056	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126334	4527	4369	4350	4350	4350	4350	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126339	6382	6170	6162	6162	6162	6162	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126340	5058	4833	4810	4810	4810	4810	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126341	9356	8164	8118	8118	8115	8115	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126342	5643	5435	5424	5424	5424	5424	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126343	7904	7560	7551	7551	7383	7304	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126344	6715	6398	6362	6362	6250	6146	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126345	6669	6465	6446	6446	6446	6446	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126346	5688	5542	5524	5524	5524	5524	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126347	5177	4953	4944	4944	4925	4890	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126348	5342	4997	4982	4982	4982	4949	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126349	6443	6056	6042	6042	6042	6042	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126350	3400	3333	3304	3304	3304	3291	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126351	5468	5229	5216	5216	5216	5170	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126352	2728	2634	2605	2605	2522	2491	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126353	5594	5351	5339	5339	5339	5339	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126354	4104	4001	3954	3954	3807	3681	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126355	5154	4852	4835	4835	4835	4800	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126356	3929	3806	3785	3785	3723	3669	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126357	6837	6444	6420	6420	6420	6420	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126358	4734	4497	4477	4477	4334	4210	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126359	5718	5486	5456	5456	5456	5422	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126360	5488	5342	5332	5332	5332	5262	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126361	6755	6468	6451	6451	6443	6443	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126362	6884	6550	6543	6543	6543	6543	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126363	6130	5842	5838	5838	5670	5608	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126364	6705	6471	6433	6433	6283	6210	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126365	1157	1125	1117	1117	1117	1117	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126366	6386	6189	6174	6174	6174	6174	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126367	4533	4348	4309	4309	4275	4275	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126368	5956	5750	5736	5736	5598	5530	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126369	3260	3159	3147	3147	3147	3141	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126370	2900	2832	2821	2821	2821	2821	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126371	8064	6253	6111	6111	6111	6075	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126372	7039	6829	6810	6810	6669	6543	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126373	5727	5502	5466	5466	5466	5420	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126374	6088	5867	5850	5850	5637	5595	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126375	8591	7658	7589	7589	7559	7526	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126377	6173	5830	5819	5819	5819	5819	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR2126378	6745	6358	6340	6340	6340	6189	30	PRJNA290349	RNA	Caciocavallo Silano	Italy	Salerno	V1-V3	10.1038/srep21871	PowerMicrobiome RNA Isolation kit MOBIO	NA	454	Cow	Yes	NA	NA	NA
+SRR10316261_1	29233	24700	24672	24672	24457	24457	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316282_1	45588	28604	28559	28559	28354	28354	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316283_1	28327	23703	23687	23687	23664	23664	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316284_1	25407	21370	21351	21351	20953	20953	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316286_1	23384	19661	19646	19646	19351	19351	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316289_1	38530	26751	26696	26696	26503	26503	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316291_1	27752	23141	23105	23105	22910	22910	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316293_1	30373	23164	23148	23148	23011	23011	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316296_1	29499	24267	24229	24229	23953	23953	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316298_1	32430	25407	25368	25368	25173	25173	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316299_1	31037	26345	26330	26330	26288	26288	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316301_1	30088	25783	25768	25768	25679	25679	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316303_1	36653	26467	26420	26420	26087	26080	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316305_1	35480	22798	22748	22748	22571	22571	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316306_1	26451	22630	22602	22602	22505	22505	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316308_1	32153	25885	25854	25854	25828	25828	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316310_1	28469	22638	22616	22616	22179	22179	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316313_1	31204	26286	26264	26264	26242	26242	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316318_1	33819	26509	26484	26484	25588	25588	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316320_1	29437	24434	24410	24410	24248	24245	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316322_1	26287	21442	21409	21409	20960	20960	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316323_1	32627	24971	24940	24940	24863	24863	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316325_1	25201	21149	21138	21138	21013	21013	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316327_1	27987	23596	23579	23579	23321	23321	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316328_1	45811	26955	26906	26906	26320	26320	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316330_1	32521	27006	26985	26985	26831	26831	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316334_1	26139	22303	22269	22269	21915	21915	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316337_1	30693	23038	23016	23016	22986	22986	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316340_1	28623	22532	22504	22504	22278	22278	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316342_1	42297	29629	29596	29596	29484	29482	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316344_1	32416	25707	25658	25658	25526	25526	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR10316346_1	31684	24800	24770	24770	24619	24619	4	PRJNA578621	DNA	Saint-Nectaire	France	Auvergne	V3-V4	10.1016/j.foodcont.2020.107282	Phenol Chloroform	0.25g	Miseq	Cow	Yes	NO	NA	NA
+SRR11943653	499501	499501	498286	498286	448962	448472	5	"	PRJNA637891"	DNA	Edam	Poland	NA	V3-V4	10.3390/app10124063	Genomic Mini AX FOOD kit 	NA	Miseq	Cow	NA	YES	NA	1.5
+SRR11943654	391095	391095	390122	390122	353966	352831	5	"	PRJNA637891"	DNA	Edam	Poland	NA	V3-V4	10.3390/app10124063	Genomic Mini AX FOOD kit 	NA	Miseq	Cow	NA	YES	NA	1.5
+SRR11943655	412900	412900	411804	411804	380155	378855	5	"	PRJNA637891"	DNA	Edam	Poland	NA	V3-V4	10.3390/app10124063	Genomic Mini AX FOOD kit 	NA	Miseq	Cow	NA	YES	NA	1.5
+SRR11943656	464505	464505	463640	463640	422860	422251	5	"	PRJNA637891"	DNA	Edam	Poland	NA	V3-V4	10.3390/app10124063	Genomic Mini AX FOOD kit 	NA	Miseq	Cow	NA	YES	NA	1.5
+SRR10830199_1	53762	53356	53228	53228	52578	52526	6	PRJNA598815	DNA	Halloumi	Cyprus	Paphos	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830200_1	354979	351656	351168	351168	343110	342303	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830201_1	16904	16770	16706	16706	16674	16670	6	PRJNA598815	DNA	Halloumi	Cyprus	Limassol	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830202_1	97045	96401	96207	96207	95706	95656	6	PRJNA598815	DNA	Halloumi	Cyprus	Limassol	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830203_1	311710	309767	309334	309334	300512	300327	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830204_1	68285	67762	67409	67409	66141	65436	6	PRJNA598815	DNA	Halloumi	Cyprus	Larnaca	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830205_1	62819	61611	61335	61335	60600	60540	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830206_1	107799	107151	106958	106958	106431	106377	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Sheep	NA	YES	NA	NA
+SRR10830207_1	510556	507310	507110	507110	504283	503941	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830208_1	63567	63113	63053	63053	60613	60605	6	PRJNA598815	DNA	Halloumi	Cyprus	Larnaca	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830209_1	77866	77302	76864	76864	76247	75940	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830210_1	155759	154581	154330	154330	153653	153591	6	PRJNA598815	DNA	Halloumi	Cyprus	Limassol	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830211_1	123641	122819	122645	122645	120899	120809	6	PRJNA598815	DNA	Halloumi	Cyprus	Nicosia	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830212_1	176031	174880	174607	174607	174111	173950	6	PRJNA598815	DNA	Halloumi	Cyprus	Larnaca	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830213_1	35336	35130	35077	35077	34956	34938	6	PRJNA598815	DNA	Halloumi	Cyprus	Famagusta	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830214_1	57663	57260	57172	57172	56909	56860	6	PRJNA598815	DNA	Halloumi	Cyprus	Larnaca	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Mix	NA	YES	NA	NA
+SRR10830215_1	91832	91227	91062	91062	89871	89705	6	PRJNA598815	DNA	Halloumi	Cyprus	Paphos	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Goat	NA	YES	NA	NA
+SRR10830216_1	173376	172212	171808	171808	168685	168616	6	PRJNA598815	DNA	Halloumi	Cyprus	Limassol	V3-V4	10.1016/j.lwt.2020.109298	DNeasy PowerFood Microbial Kit MOBIO	20g	Miseq	Goat	NA	YES	NA	NA
+ERR4013251_1	161563	161016	160741	160741	157406	157370	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013332_1	157243	156718	156375	156375	151809	151720	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013333_1	148904	148427	148182	148182	144974	144949	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013334_1	143764	143342	142993	142993	140271	140214	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013335_1	144143	143666	143317	143317	139437	139372	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013336_1	146625	146137	145937	145937	143942	143930	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013337_1	155534	155050	154666	154666	150908	150895	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013338_1	162263	161736	161479	161479	155242	155242	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013339_1	174477	173865	173520	173520	169290	169266	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013340_1	183860	183200	182578	182578	176179	176048	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013341_1	177566	177042	176736	176736	170293	170233	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013342_1	243085	242346	241781	241781	238371	238227	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013343_1	205623	205039	204690	204690	200907	200820	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013344_1	219460	218849	218557	218557	212210	212181	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013345_1	219348	218834	218505	218505	210876	210876	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013346_1	210843	210263	209999	209999	203708	203683	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013347_1	177275	176779	176506	176506	169865	169850	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013348_1	214182	213584	213266	213266	208838	208826	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013349_1	211644	211002	210604	210604	206240	206218	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013350_1	230877	230174	229769	229769	225226	225218	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013351_1	242486	241782	241283	241283	233113	233107	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+ERR4013352_1	232135	231508	231245	231245	222070	222049	7	PRJEB36556	DNA	Paipa	Colombia	Boyaca	V3-V4	10.3390/microorganisms8020218	PowerFood Microbial DNA Isolation Kit MOBIO	0.5g	Miseq	Cow	YES	NO	NA	NA
+SRR8591920	17771	15716	15685	15685	15648	15644	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591921	11636	11412	11390	11390	11383	11383	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591922	10469	10316	10308	10308	10249	10249	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591923	13548	13003	12964	12964	12949	12949	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591924	8462	8246	8234	8234	8219	8219	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591925	11784	11613	11598	11598	11569	11569	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591926	9709	9560	9544	9544	9532	9532	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591927	12835	12266	12250	12250	12250	12250	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591928	13375	13236	13223	13223	13211	13211	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591929	17127	16876	16842	16842	16831	16824	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591930	10402	10093	10062	10062	9592	9592	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591931	27121	26247	26219	26219	26219	26219	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591932	24517	22901	22863	22863	22863	22863	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591934	53049	51534	51473	51473	51458	51458	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591935	39544	38750	38709	38709	38224	38224	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591936	29229	27209	27179	27179	27104	27104	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591937	48410	47024	46973	46973	46819	46819	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591938	39120	37880	37851	37851	37851	37851	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591939	45512	44491	44463	44463	44463	44463	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591940	8258	7279	7270	7270	7270	7270	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591941	11761	11638	11628	11628	11616	11616	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591942	12274	12081	12054	12054	12032	12027	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591943	13265	13015	13001	13001	12935	12935	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591944	8790	8394	8379	8379	8379	8379	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591945	9574	9463	9453	9453	9453	9453	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591946	8160	8010	8003	8003	8003	8003	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591947	6306	6243	6234	6234	6234	6234	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591948	11406	11229	11222	11222	11222	11222	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591949	17312	16703	16687	16687	16642	16640	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591950	8014	7857	7835	7835	7835	7835	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591951	12928	12775	12746	12746	12746	12746	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591952	15701	15536	15521	15521	15447	15447	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591953	16462	15116	15104	15104	15104	15104	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591954	14627	14195	14171	14171	14118	14118	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591955	3462	3323	3302	3302	3302	3302	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.38	NA
+SRR8591956	6827	6684	6674	6674	6674	6670	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.32	NA
+SRR8591957	7265	7149	7134	7134	7134	7134	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.3	NA
+SRR8591959	11701	11569	11543	11543	11500	11500	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591960	27352	25431	25416	25416	25416	25416	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.55	NA
+SRR8591961	20068	19801	19786	19786	19786	19786	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.49	NA
+SRR8591962	49422	46855	46805	46805	46805	46805	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.49	NA
+SRR8591963	17774	17309	17277	17277	16874	16874	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.5	NA
+SRR8591964	49343	46595	46536	46536	46536	46536	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.49	NA
+SRR8591965	37448	36729	36700	36700	36700	36700	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.5	NA
+SRR8591966	26487	25049	25010	25010	25010	25010	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.5	NA
+SRR8591967	22910	22489	22450	22450	22450	22450	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.55	NA
+SRR8591969	48215	47081	47043	47043	47024	47024	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591970	12926	12798	12787	12787	12778	12778	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591971	11630	11527	11516	11516	11502	11502	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591973	15857	15678	15675	15675	15675	15675	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591974	8287	8126	8106	8106	8106	8104	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591975	12547	11991	11978	11978	11961	11961	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591976	7658	7598	7569	7569	7569	7569	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591977	15631	15252	15230	15230	15212	15212	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591978	14221	14061	14052	14052	14029	14029	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591979	7291	7211	7193	7193	7187	7187	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591980	50284	47855	47792	47792	47792	47792	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591981	41148	40430	40402	40402	40402	40402	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591983	47849	46247	46220	46220	46220	46220	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591984	39691	39030	39013	39013	39000	39000	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591985	54586	52914	52885	52885	52885	52885	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591986	43119	42017	41992	41992	41986	41986	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591987	49095	47478	47430	47430	47430	47430	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591988	39034	38223	38206	38206	38206	38206	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591991	9615	9510	9500	9500	9500	9495	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591992	6730	6656	6652	6652	6652	6652	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591993	20684	20498	20489	20489	20489	20489	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591994	7494	7247	7235	7235	7235	7235	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591995	5656	5616	5609	5609	5609	5609	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591996	11217	11122	11116	11116	11116	11116	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591997	8389	8243	8212	8212	8205	8203	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8591998	8964	8800	8737	8737	8737	8733	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.32	NA
+SRR8591999	8878	8773	8764	8764	8764	8764	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.38	NA
+SRR8592000	6364	6289	6268	6268	6268	6268	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.38	NA
+SRR8592001	16062	15907	15875	15875	15813	15813	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.3	NA
+SRR8592003	6938	6738	6732	6732	6732	6732	8	PRJNA523139	DNA	Camembert	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	5.32	NA
+SRR8592004	47892	47010	46982	46982	46982	46982	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592005	53981	51284	51235	51235	51235	51235	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592006	40854	39986	39966	39966	39966	39966	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592007	51862	50377	50358	50358	50358	50358	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592008	24313	23592	23555	23555	23555	23555	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592009	54315	52843	52806	52806	52780	52780	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592011	18861	18549	18528	18528	18528	18526	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592013	20782	20275	20262	20262	20262	20257	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592014	45980	45058	45011	45011	44995	44995	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592015	45449	42399	42360	42360	42348	42348	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592016	39277	38337	38305	38305	38305	38305	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592017	47025	45322	45287	45287	45287	45287	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592018	38225	37454	37406	37406	37406	37406	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592019	46896	45526	45498	45498	45439	45439	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592021	25119	24512	24422	24422	24422	24422	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592022	34442	27690	27630	27630	27630	27630	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592023	44381	43106	43072	43072	43033	43033	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592024	51157	49334	49284	49284	49216	49216	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592025	53188	50487	50409	50409	50409	50409	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592026	43492	42479	42438	42438	42438	42438	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8592027	51633	50060	50035	50035	50035	50033	8	PRJNA523139	DNA	Reblochon	France	Auvergne-Rh?ne-Alpes	V3-V4	10.1016/j.foodres.2019.108643	NA	NA	Miseq	Cow	YES	YES	NA	NA
+SRR8246139_1	264511	264377	263642	263642	262154	240837	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246140_1	270873	270732	269907	269907	267555	222858	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246141_1	407402	407123	406331	406331	400211	267499	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246142_1	370527	370304	369556	369556	360415	306076	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246143_1	311661	311501	310669	310669	291944	181540	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246164_1	218096	217955	217484	217484	216167	215662	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246165_1	208676	208539	207708	207708	205760	204344	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246166_1	149582	149493	148864	148864	148559	148127	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246167_1	384722	384474	383264	383264	379016	377899	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246168_1	205067	204931	204221	204221	199963	199472	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246169_1	262335	262177	261272	261272	259513	258768	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246170_1	182534	182381	181389	181389	179437	178339	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246171_1	232661	232509	231662	231662	227452	226772	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246172_1	220040	219932	219407	219407	218105	217341	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246173_1	134231	134142	133719	133719	133406	132929	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246194_1	78751	78703	78260	78260	75502	75036	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246195_1	297878	297681	296729	296729	290310	289188	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246196_1	303644	303431	302060	302060	295685	293993	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246197_1	190446	190333	189825	189825	185899	184258	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246202_1	326358	326149	324273	324273	310403	307891	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246203_1	266692	266546	265794	265794	256670	254077	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246234_1	332936	332707	331879	331879	316804	174718	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246235_1	261587	261423	260853	260853	257701	246928	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246236_1	423340	423073	422102	422102	415538	408324	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246237_1	665143	664675	663207	663207	643543	535197	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246238_1	468034	467709	466672	466672	456160	434512	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246239_1	421887	421630	420432	420432	409515	232012	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246240_1	394857	394577	393189	393189	378491	268566	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246241_1	344493	344262	343070	343070	331647	224644	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246242_1	222436	222310	221530	221530	210142	81955	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246243_1	303433	303229	302354	302354	283383	206225	9	PRJNA499132	DNA	Brie	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	YES	NA	NA
+SRR8246244_1	279303	279120	277380	277380	267982	170322	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246245_1	367442	367215	365893	365893	352620	227283	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246246_1	312561	312340	311180	311180	297680	296308	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246247_1	226846	226688	225663	225663	216896	216041	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246248_1	285550	285340	284062	284062	274537	272482	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246249_1	326024	325794	324777	324777	312240	310602	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246250_1	101712	101629	100548	100548	96907	95230	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246251_1	291919	291594	290298	290298	276807	274917	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246252_1	79423	79379	78732	78732	76943	76249	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246253_1	176691	176580	175180	175180	170550	168858	9	PRJNA499132	DNA	Jarlsburg	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246354_1	167536	167409	166263	166263	158914	108268	9	PRJNA499132	DNA	Gruyere	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA
+SRR8246452_1	246868	246680	246185	246185	245388	244379	9	PRJNA499132	DNA	Cheddar	Canada	British Columbia	V3	10.1016/j.fm.2019.04.002	PowerFood Microbial DNA Isolation Kit MOBIO	NA	Hiseq	Cow	NA	NO	NA	NA

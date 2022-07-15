@@ -1,0 +1,211 @@
+---
+title: "Meta analysis Notebook"
+output: html_notebook
+---
+
+#Load packages and data
+```{r}
+require(ggplot2)
+require(tidyverse)
+library(viridis)
+require(cowplot)
+
+
+main=read.csv("C:/Users/sj40zura/Dropbox (iDiv)/In Progress/Reuben/Meta analysis/cheese_metaanalysis.csv")
+
+colorpal=c( "#FFDB6D","#C4961A","gold4", "gold", "goldenrod3", "goldenrod1", "gold3", "gold1","goldenrod4", "goldenrod")
+
+#clean mistakes in the original document: deangelis study has no ph or salinity data, take averages for ranges in ripening temperature
+
+main$pH=main$pH
+main$pH[main$pH < 1] <- NA
+main$NaCl....[main$NaCl.... >18] <- NA
+
+
+
+```
+
+#Number of Cheese papers over time
+```{r}
+#Create a table with one row per study, then count frequencies per year. 
+yearperstudy.=main %>%
+  dplyr::group_by(Study.ID) %>%
+  dplyr::summarize(Publication.year=mean(Publication.Year),
+            Temperature=mean(Temperature..0C.),
+            pH=mean(pH),
+            NaCl=mean(NaCl....),
+            Ripening.duration=mean(Duration.of.ripening..Days.),
+            Amplicon=dplyr::first(X16S.Amplicon.),
+            Longitudinal=dplyr::first(Longitudinal.),
+            spatial=dplyr::first(Spatial),
+            Commercial.Industrial=dplyr::first(Commercial.Industrial.),
+            Ripening.ripened=dplyr::first(Ripening.ripened.), 
+            Starter.Culture=dplyr::first(Starter.Culture),
+            Starter.Culture.Type=dplyr::first(Starter.Culture.Type))
+
+
+write.table(yearperstudy., "Table per study.csv", sep=",")
+
+yearperstudy=as.data.frame(table(yearperstudy.$Publication.year, yearperstudy.$Amplicon, useNA = "always"))#make table
+colnames(yearperstudy)=c("year","amplicon","studies")
+
+yearperstudy=yearperstudy[complete.cases(yearperstudy), ]
+
+ggplot(yearperstudy,aes(x=year, y=studies, fill=amplicon))+
+  geom_bar(position="stack", stat="identity")+
+  theme_classic()+
+  xlab("publication Year")+
+  ylab("Number of Papers")+
+  labs(caption=paste0("n=", dim(yearperstudy.)[1]))+
+  scale_fill_manual(values = colorpal,na.value="grey")
+
+Eventspos=yearperstudy[which(yearperstudy$amplicon=="Yes"),]
+Trials=as.data.frame(yearperstudy%>% group_by(year)%>% summarise(sum(studies)))
+prop.trend.test(Eventspos$studies, Trials$`sum(studies)`)
+
+```
+Trends in number of cheese studies over time
+```{r}
+a=as.data.frame(table(yearperstudy.$Publication.year, useNA = "always"))#make table
+a$Var1=as.integer(a$Var1)
+a[1:7,]
+
+```
+
+#How long are cheeses normally ripened for? 
+```{r}
+RipeningTimeP=ggplot(yearperstudy., aes(x=1,y=Ripening.duration))+
+  geom_violin(fill="gold1", alpha=0.5)+
+  geom_jitter()+
+  ylab("Ripening days")+
+  theme_classic()+
+   geom_text(aes(label=paste0(round(sum(!is.na(yearperstudy.$Ripening.duration))/dim(yearperstudy.)[1]*100, 1),
+                      "%"), x=Inf, y=Inf, hjust=2, vjust=2))+
+  scale_x_discrete(labels = NULL, breaks = NULL) + 
+  labs(x = "")
+```
+
+#Average ripening temperature
+```{r}
+RipeningTempP=ggplot(yearperstudy., aes(x=1,y=Temperature))+
+  geom_violin(fill="gold2", alpha=0.5)+
+  geom_jitter()+
+  ylab("Temperature (Celsius)")+
+  theme_classic()+
+   geom_text(aes(label=paste0(round(sum(!is.na(yearperstudy.$Temperature))/dim(yearperstudy.)[1]*100, 1),
+                      "%"), x=Inf, y=Inf, hjust=2, vjust=2))+
+  scale_x_discrete(labels = NULL, breaks = NULL) + 
+  labs(x = "")
+```
+
+#Average salinity
+```{r}
+SalinityP=ggplot(yearperstudy., aes(x=1,y=NaCl))+
+  geom_violin(fill="gold", alpha=0.5)+
+  geom_jitter()+
+  ylab("NaCl")+
+  theme_classic()+
+   geom_text(aes(label=paste0(round(sum(!is.na(yearperstudy.$NaCl))/dim(yearperstudy.)[1]*100, 1),
+                      "%"), x=Inf, y=Inf, hjust=2, vjust=2))+
+  scale_x_discrete(labels = NULL, breaks = NULL) + 
+  labs(x = "")
+```
+#Average pH
+```{r}
+pHP=ggplot(yearperstudy., aes(x=1,y=pH))+
+  geom_violin(fill="gold2", alpha=0.5)+
+  geom_jitter()+
+  ylab("pH")+
+  theme_classic()+
+  geom_text(aes(label=paste0(round(sum(!is.na(yearperstudy.$pH))/dim(yearperstudy.)[1]*100, 1),
+                      "%"), x=Inf, y=Inf, hjust=2, vjust=2))+
+  scale_x_discrete(labels = NULL, breaks = NULL) + 
+  labs(x = "")
+```
+
+violin plots
+```{r}
+plot_grid(RipeningTimeP, RipeningTempP, SalinityP, pHP, NaCl.plot, pH.plot, labels=c('a', 'b', 'c', 'd', 'e', 'f'), ncol=2)
+```
+
+
+#Commercial vs industrial
+```{r}
+CommercialIndustrial=as.data.frame(table(yearperstudy.$Commercial.Industrial, useNA = "always"))#make table
+colnames(CommercialIndustrial)=c("Type","studies")
+
+CommercialP=ggplot(CommercialIndustrial,aes(x="",y=studies, fill=Type))+
+  geom_bar( stat="identity", width=1)+
+  coord_polar("y", start=0)+
+  theme_void() +
+  geom_text(aes(label = round((studies)*100/sum(studies),1)), color = "white", size=6,position = position_stack(vjust = 0.8)) +
+   scale_fill_manual(values = colorpal,na.value="grey")+
+ # theme(legend.position="top")+
+  theme(legend.title = element_blank(),
+        legend.position="bottom", legend.box = "horizontal")
+
+
+
+```
+#Ripening vs ripened
+```{r}
+Ripeningripened=as.data.frame(table(yearperstudy.$Ripening.ripened, useNA = "always"))#make table
+colnames(Ripeningripened)=c("Type","studies")
+
+RipeningP=ggplot(Ripeningripened,aes(x="",y=studies, fill=Type))+
+  geom_bar( stat="identity", width=1)+
+  coord_polar("y", start=0)+
+  theme_void() +
+  geom_text(aes(label = round((studies)*100/sum(studies),1)), color = "white", size=6,position = position_stack(vjust = 0.8))+
+   scale_fill_manual(values = colorpal,na.value="grey")+
+    #theme(legend.position="top")+
+    theme(legend.title = element_blank(),
+        legend.position="bottom", legend.box = "horizontal")
+```
+#Starter
+```{r}
+Starter=as.data.frame(table(yearperstudy.$Starter.Culture, useNA = "always"))#make table
+colnames(Starter)=c("Type","studies")
+
+ggplot(Starter,aes(x="",y=studies, fill=Type))+
+  geom_bar( stat="identity", width=1)+
+  coord_polar("y", start=0)+
+  theme_void() +
+  geom_text(aes(label = round((studies)*100/sum(studies),1)), color = "white", size=6,position = position_stack(vjust = 0.8))+
+   scale_fill_manual(values = colorpal,na.value="grey")+
+   # theme(legend.position="top")+
+  theme(legend.title = element_blank(),
+        legend.position="bottom", legend.box = "horizontal")
+```
+
+#Starter type
+```{r}
+require(plyr)
+Startertype=as.data.frame(table(yearperstudy.$Starter.Culture.Type, useNA = "always"))#make table
+colnames(Startertype)=c("Type","studies")
+Startertype$Type=revalue(Startertype$Type,
+        c("No"="No starter",
+          "Yes"="Starter used"))
+Startertype=Startertype%>%
+  mutate (Type=fct_relevel(Type, "Commercial", "Local", "Starter used", "No starter"))
+  
+
+StartertypeP=ggplot(Startertype,aes(x="",y=studies, fill=Type))+
+    geom_bar( stat="identity", width=1)+
+    coord_polar("y", start=0)+
+    theme_void() +
+    geom_text(aes(label = round((studies)*100/sum(studies),1)), color = "white", size=6,position = position_stack(vjust = 0.8)) +
+    scale_fill_manual(values = colorpal,na.value="grey")+
+   # theme(legend.position="top")+
+  theme(legend.title = element_blank(),
+        legend.position="bottom", legend.box = "horizontal")
+
+
+detach("package:plyr", unload=TRUE)
+```
+
+Piecharts
+```{r}
+plot_grid(CommercialP, RipeningP, StartertypeP, labels=c('a', 'b', 'c'), ncol=3)
+```
+
